@@ -24,7 +24,7 @@ Version 1.0 (2022-5-25)
 
 MIT License
 
-Copyright (c) 2021 rpixsl
+Copyright (c) 2022 Parasite-Team1
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
