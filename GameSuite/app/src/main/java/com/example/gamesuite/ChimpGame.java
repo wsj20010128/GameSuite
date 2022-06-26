@@ -1,4 +1,4 @@
-package com.example.chimpgame;
+package com.example.gamesuite;
 
 import androidx.appcompat.app.AppCompatActivity;
 
