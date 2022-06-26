@@ -4,6 +4,8 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
+//kaixiang's 1.0
+
 /**
  * Example local unit test, which will execute on the development machine (host).
  *
