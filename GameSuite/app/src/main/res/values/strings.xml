@@ -1,3 +1,6 @@
 <resources>
-    <string name="app_name">GameSuite</string>
+    <string name="app_name">ChimpGame</string>
+    <string name="click_the_square_in_order_according_to_their_numbers_nthe_test_will_get_progressively_harder">click the square in order according to their numbers. \nThe test will get progressively harder.</string>
+    <string name="are_you_smarter_nthan_a_chimpanzee">Are You Smarter \nThan a Chimpanzee?</string>
+    <string name="start_test">Start Test</string>
 </resources>
