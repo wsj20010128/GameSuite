@@ -16,7 +16,7 @@ import java.util.Scanner;
  * Log in screen control class
  *
  * @author Zixiang Xu
- * @version 1.0
+ * @version 2.0
  */
 public class LogInControl extends AppCompatActivity {
 
@@ -169,6 +169,12 @@ public class LogInControl extends AppCompatActivity {
      */
     private String decrypt(String str) {
 
-        return null;
+        // Throw exception if the input encrypted userdata is null
+        if (str == null) {
+            throw new java.lang.IllegalArgumentException("Decryption Failed: userdata == null");
+        }
+
+        // Return the decrypted data using BASE64
+        return new String (android.util.Base64.decode(str, android.util.Base64.DEFAULT));
     }
 }
