@@ -18,7 +18,7 @@ import java.util.Scanner;
  * Sign up screen control class
  *
  * @author Zixiang Xu
- * @version 1.0
+ * @version 2.0
  */
 public class SignUpControl extends AppCompatActivity {
 
@@ -242,7 +242,13 @@ public class SignUpControl extends AppCompatActivity {
      */
     private String encrypt(String str) {
 
-        return null;
+        // Throw exception if the input raw userdata is null
+        if (str == null) {
+            throw new java.lang.IllegalArgumentException("Encryption Failed: userdata == null");
+        }
+
+        // Return the encrypted data using BASE64
+        return new String (android.util.Base64.encode(str.getBytes(), android.util.Base64.DEFAULT));
     }
 
     /**
@@ -254,6 +260,12 @@ public class SignUpControl extends AppCompatActivity {
      */
     private String decrypt(String str) {
 
-        return null;
+        // Throw exception if the input encrypted userdata is null
+        if (str == null) {
+            throw new java.lang.IllegalArgumentException("Decryption Failed: userdata == null");
+        }
+
+        // Return the decrypted data using BASE64
+        return new String (android.util.Base64.decode(str, android.util.Base64.DEFAULT));
     }
 }
