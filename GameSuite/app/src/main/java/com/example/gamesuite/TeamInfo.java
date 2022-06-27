@@ -1,4 +1,4 @@
-package com.example.gamesuite;
+package com.example.gamesuite2340;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class TeamInfo extends AppCompatActivity {
+
     private Button homeBtn;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,7 +25,7 @@ public class TeamInfo extends AppCompatActivity {
     }
 
     public void openMain() {
-        Intent intent = new Intent(this, MainActivity.class);
+        Intent intent = new Intent(this, MainScreenGUI.class);
         startActivity(intent);
     }
 }
