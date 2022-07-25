@@ -17,7 +17,7 @@ CS 2340 project
   - It is traditionally played with Go pieces (tiger and phoenix stones) on a Go board. It is played using a 10×10 board. Players alternate turns placing a stone of their color on an empty intersection. The winner is the first player to form an unbroken chain of five stones horizontally, vertically, or diagonally.
   - There are two characters having unique skills.
     - Chronoshift: rewind to the last turn.
-    - Grand Starfall: randomly destroy two of your opponent's pieces
+    - Grand Starfall: randomly destroy two of your opponent's pieces.
 
 ## History
 
