@@ -4,32 +4,48 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
 
 /**
  * Main Activity for the Chimp Game.
- * @author Shijie Wang
- * @userid swang953
- * @GTID 903762743
- * @version 1.0
+ *
+ * @author Shijie Wang, Zixiang Xu
+ * @version 2.0
  */
 
 public class ChimpGameStartPage extends AppCompatActivity {
-    private Button startButton1;
 
+    /**
+     * Create the activity of chimp game start page.
+     *
+     * @param savedInstanceState current state of current manifest
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_chimp_game_start_page);
 
-        startButton1 = (Button) findViewById(R.id.start_button);
-        startButton1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(ChimpGameStartPage.this, ChimpGame.class);
-                startActivity(intent);
-            }
+        // Button setup
+        Button startButton1 = findViewById(R.id.start_button);
+        Button returnButton = findViewById(R.id.button_chimp_game_start_page_return);
+
+        // Initialize sound pool
+        SoundEffect.initSound(this);
+
+        // Button click setup
+        startButton1.setOnClickListener(startMemoryGame -> {
+            ChimpGame.setNum(4);
+            ChimpGame.setStrike(0);
+            SoundEffect.playSound(0);
+            Intent intent = new Intent(ChimpGameStartPage.this, ChimpGame.class);
+            finish();
+            startActivity(intent);
+        });
+        returnButton.setOnClickListener(returnHomePage -> {
+            SoundEffect.playSound(0);
+            Intent intent = new Intent(ChimpGameStartPage.this, MainScreenGUI.class);
+            finish();
+            startActivity(intent);
         });
     }
 }
