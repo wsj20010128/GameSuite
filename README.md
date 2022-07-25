@@ -10,9 +10,14 @@ CS 2340 project
   - In the study, the chimps consistently outperformed humans, and some chimps were able to remember 9 digits over 90% of the time.
   - This test is a variant of that concept, that gets increasingly difficult every turn, starting at 4 digits, and adding one every turn. If you pass a level, the number increases. If you fail, you get a strike. Three strikes and the test is over.
 - Game2: 2048
-  - 2048 is a single-player sliding tile puzzle video game played on a plain 4×4 grid, with numbered tiles that slide when a player moves them using the four arrow keys.
+  - This is a single-player sliding tile puzzle video game played on a plain 4×4 grid, with numbered tiles that slide when a player moves them using the four arrow keys.
   -  Every turn, a new tile randomly appears in an empty spot on the board with a value of either 2 or 4. Tiles slide as far as possible in the chosen direction until they are stopped by either another tile or the edge of the grid. If two tiles of the same number collide while moving, they will merge into a tile with the total value of the two tiles that collided. The resulting tile cannot merge with another tile again in the same move.
 - Game3: Dungeon
+  - This is a an abstract strategy board game improved from Gomoku, also called Five in a Row.
+  - It is traditionally played with Go pieces (tiger and phoenix stones) on a Go board. It is played using a 10×10 board. Players alternate turns placing a stone of their color on an empty intersection. The winner is the first player to form an unbroken chain of five stones horizontally, vertically, or diagonally.
+  - There are two characters having unique skills.
+    - Chronoshift: rewind to the last turn.
+    - Grand Starfall: randomly destroy two of your opponent's pieces
 
 ## History
 
