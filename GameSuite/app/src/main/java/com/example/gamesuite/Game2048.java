@@ -14,6 +14,8 @@ import android.view.animation.AccelerateInterpolator;
 import android.widget.Button;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import java.util.HashMap;
 import java.util.LinkedList;
@@ -25,7 +27,7 @@ import java.util.Random;
  * 2048 game body
  *
  * @author Zixiang Xu
- * @version 2.0
+ * @version 1.0
  */
 public class Game2048 extends AppCompatActivity{
 
@@ -106,7 +108,7 @@ public class Game2048 extends AppCompatActivity{
         clicks[2] = findViewById(R.id.game2048_btnUp);
         clicks[3] = findViewById(R.id.game2048_btnDown);
         Button returnStartPageButton = findViewById(R.id.game2048_button_in_game_return);
-
+        Button helpButton = findViewById(R.id.button_2048_game_help);
         // Set click listener for 4 types of clicks
         clicks[0].setOnClickListener(clickLeft  -> clickButton(1));
         clicks[1].setOnClickListener(clickRight -> clickButton(2));
@@ -117,6 +119,15 @@ public class Game2048 extends AppCompatActivity{
             Intent intent = new Intent(Game2048.this, Game2048StartPage.class);
             finish();
             startActivity(intent);
+        });
+
+        helpButton.setOnClickListener(help -> {
+            AlertDialog.Builder builder = new AlertDialog.Builder(Game2048.this);
+            builder.setCancelable(true);
+            builder.setMessage("Click to buttons to slide the blocks around the board. If two blocks have" +
+                    "the same number, they will merge into one block. Create a block with the 2048 value to win. Be careful! If" +
+                    " all the spaces on the board get taken, you lose!");
+            builder.show();
         });
 
         // Initial random form grids
