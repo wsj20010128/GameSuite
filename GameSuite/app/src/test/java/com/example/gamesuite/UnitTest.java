@@ -3,13 +3,14 @@ package com.example.gamesuite;
 import org.junit.Test;
 import org.junit.Before;
 import static org.junit.Assert.*;
+import java.nio.charset.StandardCharsets;
 import java.util.Random;
 
 /**
  * Unit test
  *
  * @author Zixiang Xu
- * @version 1.0
+ * @version 2.0
  */
 public class UnitTest {
     private static final int TIMEOUT = 200;
@@ -36,6 +37,69 @@ public class UnitTest {
 
     /**
      * Test case 01
+     *     --Target: DataSecurity.java
+     *     --Goal:   test the byteArr2HexStr()
+     */
+    @Test(timeout = TIMEOUT)
+    public void testByteArr2HexStr() {
+
+        // Initialize the test source string array
+        String[] testSource = new String[]{
+            "ASDcSDF%3$#@&fDASDqwr@\t\n#fder&*i&&hgres.SAD/[[=12",
+            "12EDFc#@$r$#tv54VT_$\t%#tp_34PRTC-21",
+            "W{dw_+ D;1P23LDXQW WQF-= #`Q~WQD21D:DAS'",
+            "\"qwd12ededsdC@!:+E1!@E21;dC \"\n12ED@!c "
+        };
+
+        // Initialize the test result string array
+        String[] testResult = new String[]{
+            "41534463534446253324234026664441534471777240090a2366646572262a69262668677265732e53"
+                + "41442f5b5b3d3132",
+            "3132454446632340247224237476353456545f2409252374705f3334505254432d3231",
+            "577b64775f2b20443b315032334c44585157205751462d3d202360517e5751443231443a44415327",
+            "2271776431326564656473644340213a2b453121404532313b644320220a3132454440216320"
+        };
+
+        // Compare all the results from byteArr2HexStr()
+        for (int i = 0; i < testSource.length; i++){
+            assertEquals(DataSecurity.byteArr2HexStr(testSource[i].getBytes()), testResult[i]);
+        }
+    }
+
+    /**
+     * Test case 02
+     *     --Target: DataSecurity.java
+     *     --Goal:   test the hexStr2ByteArr()
+     */
+    @Test(timeout = TIMEOUT)
+    public void testHexStr2ByteArr() {
+
+        // Initialize the test source string array
+        String[] testSource = new String[]{
+            "41534463534446253324234026664441534471777240090a2366646572262a69262668677265732e53"
+                + "41442f5b5b3d3132",
+            "3132454446632340247224237476353456545f2409252374705f3334505254432d3231",
+            "577b64775f2b20443b315032334c44585157205751462d3d202360517e5751443231443a44415327",
+            "2271776431326564656473644340213a2b453121404532313b644320220a3132454440216320"
+        };
+
+        // Initialize the test result string array
+        String[] testResult = new String[]{
+            "ASDcSDF%3$#@&fDASDqwr@\t\n#fder&*i&&hgres.SAD/[[=12",
+            "12EDFc#@$r$#tv54VT_$\t%#tp_34PRTC-21",
+            "W{dw_+ D;1P23LDXQW WQF-= #`Q~WQD21D:DAS'",
+            "\"qwd12ededsdC@!:+E1!@E21;dC \"\n12ED@!c "
+        };
+
+        // Compare all the results from hexStr2ByteArr()
+        for (int i = 0; i < testSource.length; i++){
+            assertEquals(new String(DataSecurity.hexStr2ByteArr(testSource[i]),
+                StandardCharsets.UTF_8), testResult[i]);
+        }
+    }
+
+    /**
+     * Test case 03
      *     --Target: DataSecurity.java
      *     --Goal:   test the process of encryption
      */
@@ -73,7 +137,7 @@ public class UnitTest {
     }
 
     /**
-     * Test case 02
+     * Test case 04
      *     --Target: DataSecurity.java
      *     --Goal:   test the process of decryption
      */
@@ -111,7 +175,7 @@ public class UnitTest {
     }
 
     /**
-     * Test case 03
+     * Test case 05
      *     --Target: DataSecurity.java
      *     --Goal:   test reversible process between the encryption & decryption
      */
