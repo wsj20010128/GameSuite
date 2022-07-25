@@ -16,13 +16,14 @@ import java.util.Scanner;
  * Log in screen control class
  *
  * @author Zixiang Xu
- * @version 2.0
+ * @version 1.0
  */
 public class LogInControl extends AppCompatActivity {
 
     private HashMap<String, String> userData;
     private EditText username;
     private EditText password;
+    private DataSecurity security;
 
     /**
      * Create the activity of log in page.
@@ -34,9 +35,21 @@ public class LogInControl extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
+        // Initialize sound pool
+        SoundEffect.initSound(this);
+
+        // Initialize security
+        try {
+            security = new DataSecurity();
+        } catch (Exception e) {
+            e.printStackTrace();
+            System.exit(-1);
+        }
+
         // Initialize the buttons
         Button buttonSignIn = findViewById(R.id.button_login_signin);
         Button buttonSignUp = findViewById(R.id.button_login_signup);
+
 
         // Initialize the text of username and password from user
         username = findViewById(R.id.signup_username);
@@ -57,6 +70,9 @@ public class LogInControl extends AppCompatActivity {
 
         // Click the [Sign In] button
         buttonSignIn.setOnClickListener(signIn -> {
+
+            // Play click sound
+            SoundEffect.playSound(0);
 
             // Getting an iterator for the local userdata hashmap
             Iterator<Map.Entry<String, String>> userDataItr = userData.entrySet().iterator();
@@ -80,14 +96,14 @@ public class LogInControl extends AppCompatActivity {
 
             // If a match is found, user confirmed
             if (match) {
-
-                // New Intent of GUI
-                System.out.println("Game GUI Part not connected");
+                Intent k = new Intent(LogInControl.this, MainScreenGUI.class);
+                finish();
+                startActivity(k);
 
             // If a match is not found, alert
             } else {
                 builder.setMessage("Please try again.").setTitle("Wrong username or password!");
-                builder.setPositiveButton("OK",null);
+                builder.setPositiveButton("OK", (dialog, id) -> SoundEffect.playSound(0));
                 builder.show();
             }
         });
@@ -95,6 +111,7 @@ public class LogInControl extends AppCompatActivity {
         // Click the [Sign Up] button
         buttonSignUp.setOnClickListener(signUp -> {
             try {
+                SoundEffect.playSound(0);
                 Intent k = new Intent(LogInControl.this, SignUpControl.class);
                 finish();
                 startActivity(k);
@@ -113,16 +130,16 @@ public class LogInControl extends AppCompatActivity {
 
         // Create the File tag for the data file
         File file = new File(getFilesDir(), "userData.txt");
-        boolean warning;
+        boolean createSuccess;
 
         // Determine if the data file exists.
         if (!file.exists()) {
 
             // Create the data file if the file does not exist
-            warning = file.createNewFile();
+            createSuccess = file.createNewFile();
 
             // Print warning if createNewFile return false
-            if (warning) {
+            if (!createSuccess) {
                 System.err.println("Create file failed");
             }
 
@@ -142,7 +159,6 @@ public class LogInControl extends AppCompatActivity {
                 // data[0] = username
                 // data[1] = password
                 data[index++] = scan.nextLine();
-                scan.nextLine();
 
                 // When a pair of userdata (username + password) is read
                 if (index == 2) {
@@ -151,30 +167,19 @@ public class LogInControl extends AppCompatActivity {
                     index = 0;
 
                     // Store the decrypted userdata into permanent login userdata storage
-                    this.userData.put(decrypt(data[0]), decrypt(data[1]));
+                    try {
+                        this.userData.put(
+                                security.decrypt(data[0]),
+                                security.decrypt(data[1]));
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                        System.exit(-1);
+                    }
                 }
             }
 
             // Close the scanner after finishing the work
             scan.close();
         }
-    }
-
-    /**
-     * Decryption for user data using BASE64.
-     *
-     * @param str the input encrypted user data
-     * @throws java.lang.IllegalArgumentException throw exception if the input userdata is null
-     * @return the decrypted user data
-     */
-    private String decrypt(String str) {
-
-        // Throw exception if the input encrypted userdata is null
-        if (str == null) {
-            throw new java.lang.IllegalArgumentException("Decryption Failed: userdata == null");
-        }
-
-        // Return the decrypted data using BASE64
-        return new String (android.util.Base64.decode(str, android.util.Base64.DEFAULT));
     }
 }
