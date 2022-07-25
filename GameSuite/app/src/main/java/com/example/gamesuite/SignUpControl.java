@@ -18,7 +18,7 @@ import java.util.Scanner;
  * Sign up screen control class
  *
  * @author Zixiang Xu
- * @version 2.0
+ * @version 1.0
  */
 public class SignUpControl extends AppCompatActivity {
 
@@ -26,6 +26,7 @@ public class SignUpControl extends AppCompatActivity {
     private EditText username;
     private EditText password;
     private EditText confirmPassword;
+    private DataSecurity security;
 
     /**
      * Create the activity of sign up page.
@@ -36,6 +37,17 @@ public class SignUpControl extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signup);
+
+        // Initialize sound pool
+        SoundEffect.initSound(this);
+
+        // Initialize security
+        try {
+            security = new DataSecurity();
+        } catch (Exception e) {
+            e.printStackTrace();
+            System.exit(-1);
+        }
 
         // Initialize the buttons
         Button buttonSignUp = findViewById(R.id.button_signup_signup);
@@ -62,6 +74,9 @@ public class SignUpControl extends AppCompatActivity {
         // Click the [Sign Up] button
         buttonSignUp.setOnClickListener(signUp -> {
 
+            // Play click sound
+            SoundEffect.playSound(0);
+
             // Getting an iterator for the local userdata hashmap
             Iterator<Map.Entry<String, String>> userDataItr = userData.entrySet().iterator();
 
@@ -76,7 +91,7 @@ public class SignUpControl extends AppCompatActivity {
             // If password != confirm username, retry the password
             if (!currentPassword.equals(currentConfirmPassword)) {
                 builder.setMessage("Please enter the same password.").setTitle("Password mismatches!");
-                builder.setPositiveButton("OK", null);
+                builder.setPositiveButton("OK", (dialog, id) -> SoundEffect.playSound(0));
                 builder.show();
             } else{
 
@@ -96,7 +111,7 @@ public class SignUpControl extends AppCompatActivity {
                 // If a match is found, alert
                 if (match) {
                     builder.setMessage("Please try another username.").setTitle("Username have already existed!");
-                    builder.setPositiveButton("OK", null);
+                    builder.setPositiveButton("OK", (dialog, id) -> SoundEffect.playSound(0));
                     builder.show();
                 } else {
 
@@ -111,10 +126,10 @@ public class SignUpControl extends AppCompatActivity {
 
                         // Create the data file if the file does not exist
                         try {
-                            boolean warning = file.createNewFile();
+                            boolean createSuccess = file.createNewFile();
 
                             // Print warning if createNewFile return false
-                            if (warning) {
+                            if (!createSuccess) {
                                 System.err.println("Create file failed");
                             }
 
@@ -122,7 +137,8 @@ public class SignUpControl extends AppCompatActivity {
                             e.printStackTrace();
                             builder.setMessage("Please check if your disk is full or no permission allowed.");
                             builder.setTitle("Data file cannot be created!");
-                            builder.setPositiveButton("OK", null);
+                            builder.setPositiveButton("OK", (dialog, id) ->
+                                    SoundEffect.playSound(0));
                             builder.show();
                             existCheck = false;
                         }
@@ -137,8 +153,13 @@ public class SignUpControl extends AppCompatActivity {
 
                                 // Successfully write all data in file
                                 FileWriter writer = new FileWriter(file, true);
-                                writer.write(encrypt(currentUsername)+"\n");
-                                writer.write(encrypt(currentPassword)+"\n");
+                                try {
+                                    writer.write(security.encrypt(currentUsername) + "\n");
+                                    writer.write(security.encrypt(currentPassword) + "\n");
+                                } catch (Exception e) {
+                                    e.printStackTrace();
+                                    System.exit(-1);
+                                }
                                 writer.flush();
                                 writer.close();
 
@@ -146,6 +167,8 @@ public class SignUpControl extends AppCompatActivity {
                                 builder.setMessage("Username: " + currentUsername + "\nPassword: " + currentPassword + "\n");
                                 builder.setTitle("Your account has been created!");
                                 builder.setPositiveButton("OK", (dialog, id) -> {
+                                    SoundEffect.playSound(0);
+                                    dialog.dismiss();
                                     Intent k = new Intent(SignUpControl.this, LogInControl.class);
                                     SignUpControl.this.finish();
                                     startActivity(k);
@@ -161,7 +184,8 @@ public class SignUpControl extends AppCompatActivity {
                             // Data file is not writable
                             builder.setMessage("Please check if the file is occupied by other programs or is readonly.");
                             builder.setTitle("Data file not writable!");
-                            builder.setPositiveButton("OK", null);
+                            builder.setPositiveButton("OK", (dialog, id) ->
+                                    SoundEffect.playSound(0));
                             builder.show();
                         }
                     }
@@ -171,6 +195,7 @@ public class SignUpControl extends AppCompatActivity {
 
         // Click the [Back] button
         buttonSignUpBack.setOnClickListener(signUpBack -> {
+            SoundEffect.playSound(0);
             Intent k = new Intent(SignUpControl.this, LogInControl.class);
             finish();
             startActivity(k);
@@ -223,49 +248,18 @@ public class SignUpControl extends AppCompatActivity {
                     // Clear the index of temporary userdata storage
                     index = 0;
 
-                    // Store the decrypted userdata into permanent login userdata storage
-                    this.userData.put(decrypt(data[0]), decrypt(data[1]));
+                    try {
+                        // Store the decrypted userdata into permanent login userdata storage
+                        this.userData.put(security.decrypt(data[0]), security.decrypt(data[1]));
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                        System.exit(-1);
                     }
+                }
             }
 
             // Close the scanner after finishing the work
             scan.close();
         }
-    }
-
-    /**
-     * Encryption for user data using BASE64.
-     *
-     * @param str the input raw user data
-     * @throws java.lang.IllegalArgumentException throw exception if the input userdata is null
-     * @return the encrypted user data
-     */
-    private String encrypt(String str) {
-
-        // Throw exception if the input raw userdata is null
-        if (str == null) {
-            throw new java.lang.IllegalArgumentException("Encryption Failed: userdata == null");
-        }
-
-        // Return the encrypted data using BASE64
-        return new String (android.util.Base64.encode(str.getBytes(), android.util.Base64.DEFAULT));
-    }
-
-    /**
-     * Decryption for user data using BASE64.
-     *
-     * @param str the input encrypted user data
-     * @throws java.lang.IllegalArgumentException throw exception if the input userdata is null
-     * @return the decrypted user data
-     */
-    private String decrypt(String str) {
-
-        // Throw exception if the input encrypted userdata is null
-        if (str == null) {
-            throw new java.lang.IllegalArgumentException("Decryption Failed: userdata == null");
-        }
-
-        // Return the decrypted data using BASE64
-        return new String (android.util.Base64.decode(str, android.util.Base64.DEFAULT));
     }
 }

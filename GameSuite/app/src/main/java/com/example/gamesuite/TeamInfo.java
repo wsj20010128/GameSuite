@@ -1,31 +1,43 @@
-package com.example.gamesuite2340;
+package com.example.gamesuite;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
 
+/**
+ * Team Info GUI
+ *
+ * @author Zhisen An, Kaixiang Cui, Zixiang Xu
+ * @version 2.0
+ */
 public class TeamInfo extends AppCompatActivity {
 
-    private Button homeBtn;
+    /**
+     * Create the activity of team info page.
+     *
+     * @param savedInstanceState current state of current manifest
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_team_info);
 
-        homeBtn = (Button) findViewById(R.id.buttonHome);
-        homeBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                openMain();
-            }
-        });
+        // Initialize sound pool
+        SoundEffect.initSound(this);
+
+        // Setup the return home button
+        Button homeBtn = findViewById(R.id.ButtonHome);
+        homeBtn.setOnClickListener(home -> openMain());
     }
 
+    /**
+     * Return home button setup
+     */
     public void openMain() {
-        Intent intent = new Intent(this, MainScreenGUI.class);
-        startActivity(intent);
+        SoundEffect.playSound(0);
+        Intent k = new Intent(TeamInfo.this, MainScreenGUI.class);
+        finish();
+        startActivity(k);
     }
 }
