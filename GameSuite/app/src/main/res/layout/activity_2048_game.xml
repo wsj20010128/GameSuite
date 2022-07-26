@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/game2048_background"
+    tools:context=".Game2048">
+
+    <Button
+        android:id="@+id/game2048_button_in_game_return"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:drawableStart="@drawable/ic_white"
+        android:paddingStart="15dp"
+        tools:ignore="RtlSymmetry" />
+
+    <Button
+        android:id="@+id/button_2048_game_help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="2dp"
+        android:background="@android:color/transparent"
+        android:paddingStart="15dp"
+        android:text="Help"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        tools:ignore="RtlSymmetry" />
+
+    <ScrollView
+        android:layout_below="@id/game2048_button_in_game_return"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:fillViewport="true"
+        android:fitsSystemWindows="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:scrollbarThumbHorizontal="@null"
+            android:scrollbarThumbVertical="@null">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:orientation="vertical"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:id="@+id/game2048Name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="10dp"
+                    android:text="@string/game2048"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:typeface="monospace"
+                    app:fontFamily="@font/font_game"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_goneMarginTop="5dp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/game2048_grid_board"
+                        android:layout_width="280dp"
+                        android:layout_height="280dp"
+                        android:layout_centerInParent="true"
+                        android:layout_gravity="center"
+                        android:background="@color/game2048_game_board_background">
+                        <ImageView
+                            android:id="@+id/game2048_grid_0"
+                            android:layout_width="62dp"
+                            android:layout_height="62dp"
+                            android:layout_marginStart="4dp"
+                            android:layout_marginTop="4dp"
+                            android:clickable="false"
+                            android:gravity="center"
+                            android:includeFontPadding="false"
+                            android:scaleType="centerCrop"
+                            app:layout_constraintLeft_toLeftOf="@+id/game2048_grid_board"
+                            app:layout_constraintTop_toTopOf="@+id/game2048_grid_board"
+                            app:srcCompat="@drawable/game2048_grid_null"
+                            tools:ignore="ContentDescription" />
+                        <ImageView
+                            android:id="@+id/game2048_grid_1"
+                            android:layout_width="62dp"
+                            android:layout_height="62dp"
+                            android:layout_marginStart="74dp"
+                            android:layout_marginTop="4dp"
+                            android:clickable="false"
+                            android:gravity="center"
+                            android:includeFontPadding="false"
+                            android:scaleType="centerCrop"
+                            app:layout_constraintLeft_toLeftOf="@+id/game2048_grid_board"
+                            app:layout_constraintTop_toTopOf="@+id/game2048_grid_board"
+                            app:srcCompat="@drawable/game2048_grid_null"
+                            tools:ignore="ContentDescription" />
+                        <ImageView
+                            android:id="@+id/game2048_grid_2"
+                            android:layout_width="62dp"
+                            android:layout_height="62dp"
+                            android:layout_marginStart="214dp"
+                            android:layout_marginTop="4dp"
+                            android:clickable="false"
+                            android:gravity="center"
+                            android:includeFontPadding="false"
+                            android:scaleType="centerCrop"
+                            app:layout_constraintLeft_toLeftOf="@+id/game2048_grid_board"
+                            app:layout_constraintTop_toTopOf="@+id/game2048_grid_board"
+                            app:srcCompat="@drawable/game2048_grid_null"
+                            tools:ignore="ContentDescription" />
+                        <ImageView
+                            android:id="@+id/game2048_grid_3"
+                            android:layout_width="62dp"
+                            android:layout_height="62dp"
+                            android:layout_marginStart="4dp"
+                            android:layout_marginTop="74dp"
+                            android:clickable="false"
+                            android:gravity="center"
+                            android:includeFontPadding="false"
+                            android:scaleType="centerCrop"
+                            app:layout_constraintLeft_toLeftOf="@+id/game2048_grid_board"
+                            app:layout_constraintTop_toTopOf="@+id/game2048_grid_board"
+                            app:srcCompat="@drawable/game2048_grid_null"
+                            tools:ignore="ContentDescription" />
+                        <ImageView
+                            android:id="@+id/game2048_grid_4"
+                            android:layout_width="62dp"
+                            android:layout_height="62dp"
+                            android:layout_marginStart="74dp"
+                            android:layout_marginTop="74dp"
+                            android:clickable="false"
+                            android:gravity="center"
+                            android:includeFontPadding="false"
+                            android:scaleType="centerCrop"
+                            app:layout_constraintLeft_toLeftOf="@+id/game2048_grid_board"
+                            app:layout_constraintTop_toTopOf="@+id/game2048_grid_board"
+                            app:srcCompat="@drawable/game2048_grid_null"
+                            tools:ignore="ContentDescription" />
+                        <ImageView
+                            android:id="@+id/game2048_grid_5"
+                            android:layout_width="62dp"
+                            android:layout_height="62dp"
+                            android:layout_marginStart="144dp"
+                            android:layout_marginTop="74dp"
+                            android:clickable="false"
+                            android:gravity="center"
+                            android:includeFontPadding="false"
+                            android:scaleType="centerCrop"
+                            app:layout_constraintLeft_toLeftOf="@+id/game2048_grid_board"
+                            app:layout_constraintTop_toTopOf="@+id/game2048_grid_board"
+                            app:srcCompat="@drawable/game2048_grid_null"
+                            tools:ignore="ContentDescription" />
+                        <ImageView
+                            android:id="@+id/game2048_grid_6"
+                            android:layout_width="62dp"
+                            android:layout_height="62dp"
+                            android:layout_marginStart="214dp"
+                            android:layout_marginTop="74dp"
+                            android:clickable="false"
+                            android:gravity="center"
+                            android:includeFontPadding="false"
+                            android:scaleType="centerCrop"
+                            app:layout_constraintLeft_toLeftOf="@+id/game2048_grid_board"
+                            app:layout_constraintTop_toTopOf="@+id/game2048_grid_board"
+                            app:srcCompat="@drawable/game2048_grid_null"
+                            tools:ignore="ContentDescription" />
+                        <ImageView
+                            android:id="@+id/game2048_grid_7"
+                            android:layout_width="62dp"
+                            android:layout_height="62dp"
+                            android:layout_marginStart="144dp"
+                            android:layout_marginTop="4dp"
+                            android:clickable="false"
+                            android:gravity="center"
+                            android:includeFontPadding="false"
+                            android:scaleType="centerCrop"
+                            app:layout_constraintLeft_toLeftOf="@+id/game2048_grid_board"
+                            app:layout_constraintTop_toTopOf="@+id/game2048_grid_board"
+                            app:srcCompat="@drawable/game2048_grid_null"
+                            tools:ignore="ContentDescription" />
+                        <ImageView
+                            android:id="@+id/game2048_grid_8"
+                            android:layout_width="62dp"
+                            android:layout_height="62dp"
+                            android:layout_marginStart="144dp"
+                            android:layout_marginTop="4dp"
+                            android:clickable="false"
+                            android:gravity="center"
+                            android:includeFontPadding="false"
+                            android:scaleType="centerCrop"
+                            app:layout_constraintLeft_toLeftOf="@+id/game2048_grid_board"
+                            app:layout_constraintTop_toTopOf="@+id/game2048_grid_board"
+                            app:srcCompat="@drawable/game2048_grid_null"
+                            tools:ignore="ContentDescription" />
+                        <ImageView
+                            android:id="@+id/game2048_grid_9"
+                            android:layout_width="62dp"
+                            android:layout_height="62dp"
+                            android:layout_marginStart="144dp"
+                            android:layout_marginTop="4dp"
+                            android:clickable="false"
+                            android:gravity="center"
+                            android:includeFontPadding="false"
+                            android:scaleType="centerCrop"
+                            app:layout_constraintLeft_toLeftOf="@+id/game2048_grid_board"
+                            app:layout_constraintTop_toTopOf="@+id/game2048_grid_board"
+                            app:srcCompat="@drawable/game2048_grid_null"
+                            tools:ignore="ContentDescription" />
+                        <ImageView
+                            android:id="@+id/game2048_grid_10"
+                            android:layout_width="62dp"
+                            android:layout_height="62dp"
+                            android:layout_marginStart="4dp"
+                            android:layout_marginTop="144dp"
+                            android:clickable="false"
+                            android:gravity="center"
+                            android:includeFontPadding="false"
+                            android:scaleType="centerCrop"
+                            app:layout_constraintLeft_toLeftOf="@+id/game2048_grid_board"
+                            app:layout_constraintTop_toTopOf="@+id/game2048_grid_board"
+                            app:srcCompat="@drawable/game2048_grid_null"
+                            tools:ignore="ContentDescription" />
+                        <ImageView
+                            android:id="@+id/game2048_grid_11"
+                            android:layout_width="62dp"
+                            android:layout_height="62dp"
+                            android:layout_marginStart="74dp"
+                            android:layout_marginTop="144dp"
+                            android:clickable="false"
+                            android:gravity="center"
+                            android:includeFontPadding="false"
+                            android:scaleType="centerCrop"
+                            app:layout_constraintLeft_toLeftOf="@+id/game2048_grid_board"
+                            app:layout_constraintTop_toTopOf="@+id/game2048_grid_board"
+                            app:srcCompat="@drawable/game2048_grid_null"
+                            tools:ignore="ContentDescription" />
+                        <ImageView
+                            android:id="@+id/game2048_grid_12"
+                            android:layout_width="62dp"
+                            android:layout_height="62dp"
+                            android:layout_marginStart="144dp"
+                            android:layout_marginTop="144dp"
+                            android:clickable="false"
+                            android:gravity="center"
+                            android:includeFontPadding="false"
+                            android:scaleType="centerCrop"
+                            app:layout_constraintLeft_toLeftOf="@+id/game2048_grid_board"
+                            app:layout_constraintTop_toTopOf="@+id/game2048_grid_board"
+                            app:srcCompat="@drawable/game2048_grid_null"
+                            tools:ignore="ContentDescription" />
+                        <ImageView
+                            android:id="@+id/game2048_grid_13"
+                            android:layout_width="62dp"
+                            android:layout_height="62dp"
+                            android:layout_marginStart="214dp"
+                            android:layout_marginTop="144dp"
+                            android:clickable="false"
+                            android:gravity="center"
+                            android:includeFontPadding="false"
+                            android:scaleType="centerCrop"
+                            app:layout_constraintLeft_toLeftOf="@+id/game2048_grid_board"
+                            app:layout_constraintTop_toTopOf="@+id/game2048_grid_board"
+                            app:srcCompat="@drawable/game2048_grid_null"
+                            tools:ignore="ContentDescription" />
+                        <ImageView
+                            android:id="@+id/game2048_grid_14"
+                            android:layout_width="62dp"
+                            android:layout_height="62dp"
+                            android:layout_marginStart="4dp"
+                            android:layout_marginTop="214dp"
+                            android:clickable="false"
+                            android:gravity="center"
+                            android:includeFontPadding="false"
+                            android:scaleType="centerCrop"
+                            app:layout_constraintLeft_toLeftOf="@+id/game2048_grid_board"
+                            app:layout_constraintTop_toTopOf="@+id/game2048_grid_board"
+                            app:srcCompat="@drawable/game2048_grid_null"
+                            tools:ignore="ContentDescription" />
+                        <ImageView
+                            android:id="@+id/game2048_grid_15"
+                            android:layout_width="62dp"
+                            android:layout_height="62dp"
+                            android:layout_marginStart="74dp"
+                            android:layout_marginTop="214dp"
+                            android:clickable="false"
+                            android:gravity="center"
+                            android:includeFontPadding="false"
+                            android:scaleType="centerCrop"
+                            app:layout_constraintLeft_toLeftOf="@+id/game2048_grid_board"
+                            app:layout_constraintTop_toTopOf="@+id/game2048_grid_board"
+                            app:srcCompat="@drawable/game2048_grid_null"
+                            tools:ignore="ContentDescription" />
+
+                        <ImageView
+                            android:id="@+id/game2048_grid_16"
+                            android:layout_width="62dp"
+                            android:layout_height="62dp"
+                            android:layout_marginStart="144dp"
+                            android:layout_marginTop="214dp"
+                            android:clickable="false"
+                            android:gravity="center"
+                            android:includeFontPadding="false"
+                            android:scaleType="centerCrop"
+                            app:layout_constraintLeft_toLeftOf="@+id/game2048_grid_board"
+                            app:layout_constraintTop_toTopOf="@+id/game2048_grid_board"
+                            app:srcCompat="@drawable/game2048_grid_null"
+                            tools:ignore="ContentDescription" />
+
+                        <ImageView
+                            android:id="@+id/game2048_grid_17"
+                            android:layout_width="62dp"
+                            android:layout_height="62dp"
+                            android:layout_marginStart="214dp"
+                            android:layout_marginTop="214dp"
+                            android:clickable="false"
+                            android:gravity="center"
+                            android:includeFontPadding="false"
+                            android:scaleType="centerCrop"
+                            app:layout_constraintLeft_toLeftOf="@+id/game2048_grid_board"
+                            app:layout_constraintTop_toTopOf="@+id/game2048_grid_board"
+                            app:srcCompat="@drawable/game2048_grid_null"
+                            tools:ignore="ContentDescription" />
+
+                        <RelativeLayout
+                            android:id="@+id/game2048_motion_board"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:animateLayoutChanges="false"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+                            </RelativeLayout>
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        >
+
+
+                        <Button
+                            android:id="@+id/game2048_btnUp"
+                            android:layout_width="75dp"
+                            android:layout_height="75dp"
+                            android:background="@drawable/game2048_button_up"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <Button
+                            android:id="@+id/game2048_btnLeft"
+                            android:layout_width="75dp"
+                            android:layout_height="75dp"
+                            android:layout_marginStart="10dp"
+                            android:background="@drawable/game2048_button_left"
+                            app:layout_constraintStart_toEndOf="@+id/game2048_btnUp"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <Button
+                            android:id="@+id/game2048_btnRight"
+                            android:layout_width="75dp"
+                            android:layout_height="75dp"
+                            android:layout_marginStart="10dp"
+                            android:background="@drawable/game2048_button_right"
+                            app:layout_constraintStart_toEndOf="@+id/game2048_btnLeft"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <Button
+                            android:id="@+id/game2048_btnDown"
+                            android:layout_width="75dp"
+                            android:layout_height="75dp"
+                            android:layout_marginStart="10dp"
+                            android:background="@drawable/game2048_button_down"
+                            app:layout_constraintStart_toEndOf="@+id/game2048_btnRight"
+                            app:layout_constraintTop_toTopOf="parent"/>
+
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

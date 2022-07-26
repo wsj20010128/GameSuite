@@ -15,14 +15,14 @@
         android:drawableStart="@drawable/ic_back"
         android:paddingStart="15dp"
         tools:ignore="RtlSymmetry" />
+
     <ScrollView
         android:layout_below="@id/button_signup_back"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:fillViewport="true"
-        android:fitsSystemWindows="true"
-        tools:context="in.insideandroid.template.LoginActivity">
+        android:fitsSystemWindows="true">
 
         <RelativeLayout
             android:layout_width="match_parent"

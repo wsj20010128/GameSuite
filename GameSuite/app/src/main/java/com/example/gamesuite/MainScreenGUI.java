@@ -66,7 +66,7 @@ public class MainScreenGUI extends AppCompatActivity {
                 intent = new Intent(this, Game2048StartPage.class);
                 break;
             case 3:
-                intent = new Intent(this, Connect5.class);
+                intent = new Intent(this, Connect5StartPage.class);
         }
 
         // Close current window

@@ -18,9 +18,9 @@
         android:scrollbarThumbVertical="@null">
 
         <LinearLayout
-            android:layout_centerVertical="true"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
             android:orientation="vertical"
             tools:ignore="UselessParent">
 
@@ -30,9 +30,9 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="24dp"
                 android:layout_marginBottom="32dp"
+                android:contentDescription="@string/text_signin_game_icon"
                 android:scaleType="centerInside"
-                app:srcCompat="@drawable/signin_game_logo"
-                android:contentDescription="@string/text_signin_game_icon" />
+                app:srcCompat="@drawable/signin_game_logo" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -100,6 +100,7 @@
                         android:layout_gravity="center"
                         android:layout_marginLeft="12dp"
                         android:layout_marginRight="12dp"
+                        android:autofillHints="password"
                         android:background="@android:color/transparent"
                         android:drawableStart="@drawable/ic_lock"
                         android:drawablePadding="12dp"
@@ -107,8 +108,7 @@
                         android:imeOptions="actionDone"
                         android:inputType="textPassword"
                         android:minWidth="320dp"
-                        android:minHeight="50dp"
-                        android:autofillHints="password" />
+                        android:minHeight="50dp" />
                 </com.google.android.material.textfield.TextInputLayout>
             </androidx.cardview.widget.CardView>
 
@@ -122,8 +122,8 @@
                 android:text="@string/text_signin_button_signin" />
 
             <Button
-                style="@style/TextyButton"
                 android:id="@+id/button_login_signup"
+                style="@style/TextyButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"

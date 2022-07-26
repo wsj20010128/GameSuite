@@ -2,9 +2,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.gamesuite">
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
         tools:ignore="ScopedStorage" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -16,6 +19,28 @@
         android:theme="@style/Theme.GameSuite"
         tools:targetApi="31">
         <activity
+            android:name=".Connect5EndPage"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Connect5"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Connect5Selection"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Connect5StartPage"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ChimpGameScorePage"
+            android:exported="false" />
+        <activity
+            android:name=".ChimpGameEndPage"
+            android:exported="false" />
+        <activity
             android:name=".LogInControl"
             android:exported="true">
             <intent-filter>
@@ -24,8 +49,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SignUpControl">
-        </activity>
+        <activity android:name=".SignUpControl" />
+        <activity android:name=".MainScreenGUI" />
+        <activity android:name=".TeamInfo" />
+        <activity android:name=".ChimpGameStartPage" />
+        <activity android:name=".ChimpGame" />
+        <activity android:name=".Game2048StartPage" />
+        <activity android:name=".Game2048" />
+        <activity android:name=".Game2048EndPage" />
     </application>
 
 </manifest>

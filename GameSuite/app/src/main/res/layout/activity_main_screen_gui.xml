@@ -1,73 +1,101 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/main_gui_background_photo"
+    android:orientation="vertical"
+    android:fillViewport="true"
+    android:fitsSystemWindows="true"
     tools:context=".MainScreenGUI">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <RelativeLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="0dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="-2dp"
-        android:text=" Game Suite \nby Team 1"
-        android:textAlignment="center"
-        android:textColor="@color/black"
-        android:textSize="35sp"
-        android:textStyle="bold" />
+        android:orientation="vertical"
+        android:scrollbarThumbHorizontal="@null"
+        android:scrollbarThumbVertical="@null">
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="147dp"
-        android:layout_height="75dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="489dp"
-        android:text="Team Information" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="34dp"
+            android:text="@string/main_screen_gui_title"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="70sp"
+            android:textStyle="bold"
+            app:fontFamily="@font/font_main_title" />
 
-    <ImageButton
-        android:id="@+id/theMemoryGameBtn"
-        android:layout_width="200dp"
-        android:layout_height="100dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="114dp"
-        android:textAlignment="center"
-        android:background="@drawable/memory"
-        android:textColor="@color/teal_200"
-        />
+        <TextView
+            android:id="@+id/main_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="95dp"
+            android:layout_marginEnd="140dp"
+            android:text="@string/main_screen_by_team_01"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:fontFamily="@font/font_main_subtitle" />
 
-    <Button
-        android:id="@+id/the2048GameBtn"
-        android:layout_width="200dp"
-        android:layout_height="100dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="232dp"
-        android:text="2048 (ID)" />
+        <ImageButton
+            android:id="@+id/theMemoryGameBtn"
+            android:layout_width="130dp"
+            android:layout_height="160dp"
+            android:layout_gravity="start"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="150dp"
+            android:background="@drawable/memory_btn"
+            android:contentDescription="@string/app_name" />
 
-    <Button
-        android:id="@+id/theDungeonGameBtn"
-        android:layout_width="200dp"
-        android:layout_height="100dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="344dp"
-        android:text="Dungeon (ID)" />
+        <ImageButton
+            android:id="@+id/the2048GameBtn"
+            android:layout_width="130dp"
+            android:layout_height="160dp"
+            android:layout_marginStart="230dp"
+            android:layout_marginTop="150dp"
+            android:background="@drawable/a2048_btn"
+            android:contentDescription="@string/app_name" />
 
-    <Button
-        android:id="@+id/exitBtn"
-        android:layout_width="70dp"
-        android:layout_height="60dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="4dp"
-        android:text="EXIT" />
+        <ImageButton
+            android:id="@+id/theConnect5GameBtn"
+            android:layout_width="130dp"
+            android:layout_height="160dp"
+            android:layout_gravity="start"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="340dp"
+            android:background="@drawable/connect5btn"
+            android:contentDescription="@string/app_name" />
 
-</RelativeLayout>
+        <ImageButton
+            android:id="@+id/teamBtn"
+            android:layout_width="130dp"
+            android:layout_height="160dp"
+            android:layout_gravity="start"
+            android:layout_marginStart="230dp"
+            android:layout_marginTop="340dp"
+            android:background="@drawable/team_info_btn"
+            android:contentDescription="@string/team_info" />
+
+        <Button
+            android:id="@+id/exitBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="160dp"
+            android:layout_marginTop="540dp"
+            android:background="#ff0307"
+            android:text="@string/gui_exit"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+</ScrollView>

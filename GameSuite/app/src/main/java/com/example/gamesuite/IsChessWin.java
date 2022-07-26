@@ -5,11 +5,11 @@ import android.graphics.Point;
 import java.util.List;
 
 public class IsChessWin {
-    private boolean isGameOver = false; // 判断是否游戏结束
-    private int MAX_NUMBER = 5;         // 设置5子连在一起胜利
-    private int current_num = 0;        // 当前棋子连在一起数量
+    private boolean isGameOver = false; // game over
+    private int MAX_NUMBER = 5;         // 5 in a row
+    private int current_num = 0;        // current in a row
     private Context mContext;
-    private boolean  isWhiteWinFlag;    // 是否白棋获胜
+    private boolean  isWhiteWinFlag;    // did one side win
 
     public IsChessWin(Context context) {
         this.mContext = context;
@@ -17,15 +17,14 @@ public class IsChessWin {
     /**
      * Check win
      *
-     * @param x x坐标
-     * @param y y坐标
-     * @param points 坐标集合
+     * @param x x position
+     * @param y y position
+     * @param points coordinate
      * @return true or false
      */
     private boolean isHorizontalFive(int x, int y, List<Point> points) {
-        // 判断横向，向右，是否连成5子，points里面存的值为int类型，所以可以进行加一或减一运算
         for (int i = 0; i < MAX_NUMBER; i++) {
-            if (points.contains((new Point(x + i, y)))) { // x轴递增，y不变
+            if (points.contains((new Point(x + i, y)))) {
                 current_num++;
             } else {
                 break;
@@ -36,7 +35,6 @@ public class IsChessWin {
         }
         current_num = 0;
 
-        // 判断横向向左是否为5子
         for (int i = 0; i < MAX_NUMBER; i++) {
             if (points.contains((new Point(x - i, y)))) {
                 current_num++;
@@ -52,14 +50,14 @@ public class IsChessWin {
     }
 
     /**
-     * 是否竖向五子连珠
+     * Vertical 5 in a row
+     *
      * @param x
      * @param y
      * @param points
      * @return
      */
     private boolean isVerticalFive(int x, int y, List<Point> points) {
-        // 向下五子连珠
         for (int i = 0; i < MAX_NUMBER; i++) {
             if (points.contains(new Point(x, y + i))) {
                 current_num++;
@@ -71,7 +69,6 @@ public class IsChessWin {
             return true;
         }
         current_num = 0;
-        // 判断向上五子连珠
         for (int i = 0; i < MAX_NUMBER; i++) {
             if (points.contains(new Point(x, y - i))) {
                 current_num++;
@@ -87,14 +84,14 @@ public class IsChessWin {
     }
 
     /**
-     * 判断斜线五子连珠
+     * Diagonal five in a row
+     *
      * @param x
      * @param y
      * @param points
      * @return
      */
     private boolean isSkewFive(int x, int y, List<Point> points) {
-        // 判断向右往下是否五子连珠
         for (int i = 0; i < MAX_NUMBER; i++) {
             if (points.contains(new Point(x + i, y + i))) {
                 current_num++;
@@ -107,7 +104,6 @@ public class IsChessWin {
         }
         current_num = 0;
 
-        // 判断向左往上是否五子连珠
         for (int i = 0; i < MAX_NUMBER; i++) {
             if (points.contains(new Point(x - i, y - i))) {
                 current_num++;
@@ -120,7 +116,6 @@ public class IsChessWin {
         }
         current_num = 0;
 
-        // 判断向右往上是否五子连珠
         for (int i = 0; i < MAX_NUMBER; i++) {
             if (points.contains(new Point(x + i, y - i))) {
                 current_num++;
@@ -133,7 +128,6 @@ public class IsChessWin {
         }
         current_num = 0;
 
-        // 判断向左往下是否五子连珠
         for (int i = 0; i < MAX_NUMBER; i++) {
             if (points.contains(new Point(x - i, y + i))) {
                 current_num++;
@@ -149,7 +143,7 @@ public class IsChessWin {
     }
 
     /**
-     * 判断属于哪一种五子连珠
+     * Which 5 in a row was achieved
      *
      * @param points
      * @return
@@ -170,7 +164,8 @@ public class IsChessWin {
     }
 
     /**
-     * 判断是否白棋获胜
+     * If left side won
+     *
      * @param points
      * @return
      */
@@ -182,7 +177,8 @@ public class IsChessWin {
     }
 
     /**
-     * 判断是否黑棋获胜
+     * If right side won
+     *
      * @param points
      * @return
      */
@@ -194,10 +190,11 @@ public class IsChessWin {
     }
 
     /**
-     * 判断游戏是否结束
+     * Is the game over
+     *
      * @param whitePoints
      * @param blackPoints
-     * @return 当白棋胜或者黑棋胜，返回true
+     * @return true if one side has won
      */
     public boolean isGameOverMethod(List<Point> whitePoints, List<Point> blackPoints) {
         boolean whiteWin = isWhiteWin(whitePoints);
@@ -207,7 +204,7 @@ public class IsChessWin {
             isGameOver = true;
             isWhiteWinFlag = whiteWin;
         }
-        return isGameOver;   // 最上面有定义默认值 isGameOver = false;
+        return isGameOver;
     }
 
     public boolean whiteWinFlag() {

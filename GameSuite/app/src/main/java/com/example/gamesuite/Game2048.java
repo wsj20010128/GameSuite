@@ -602,7 +602,7 @@ public class Game2048 extends AppCompatActivity{
 
         // Continue to the loser page if the player has lost
         if (isLost()) {
-            Game2048EndPage.setMessage("Oh oh...\nThe board are full, you lost!");
+            Game2048EndPage.setMessage("Oh no...\nThe board is full, you lost!");
             Game2048EndPage.setScore(score);
             Intent intent = new Intent(Game2048.this, Game2048EndPage.class);
             finish();
