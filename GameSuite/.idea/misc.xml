@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CheckstyleConfigurable">
+    <option name="suppFilterFilename" value="" />
+    <option name="suppCommentFilter" value="false" />
+    <option name="offComment" value="CHECKSTYLE\:OFF" />
+    <option name="onComment" value="CHECKSTYLE\:ON" />
+    <option name="checkFormat" value=".*" />
+    <option name="messageFormat" value="" />
+    <option name="checkCPP" value="true" />
+    <option name="checkC" value="true" />
+    <option name="suppNearbyCommentFilter" value="false" />
+    <option name="snCommentFormat" value="SUPPRESS CHECKSTYLE (\w+)" />
+    <option name="snCheckFormat" value="$1" />
+    <option name="snMessageFormat" value="" />
+    <option name="snInfluenceFormat" value="0" />
+    <option name="snCheckCPP" value="true" />
+    <option name="snCheckC" value="true" />
+    <option name="pathToUserRulesConfiguration" value="" />
+    <option name="pathToJarWithRules" value="" />
+  </component>
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Computer_Science/AndroidStudioProjects/GameSuite/app/src/main/res/drawable/button_connect5start.xml" value="0.1" />
+        <entry key="..\:/Computer_Science/AndroidStudioProjects/GameSuite/app/src/main/res/layout/activity_2048_game.xml" value="0.1480978260869565" />
+        <entry key="..\:/Computer_Science/AndroidStudioProjects/GameSuite/app/src/main/res/layout/activity_2048_game_end_page.xml" value="0.1480978260869565" />
+        <entry key="..\:/Computer_Science/AndroidStudioProjects/GameSuite/app/src/main/res/layout/activity_2048_game_start_page.xml" value="0.1480978260869565" />
+        <entry key="..\:/Computer_Science/AndroidStudioProjects/GameSuite/app/src/main/res/layout/activity_chimp_game.xml" value="0.1649122807017544" />
+        <entry key="..\:/Computer_Science/AndroidStudioProjects/GameSuite/app/src/main/res/layout/activity_chimp_game_end_page.xml" value="0.1480978260869565" />
+        <entry key="..\:/Computer_Science/AndroidStudioProjects/GameSuite/app/src/main/res/layout/activity_chimp_game_score_page.xml" value="0.1480978260869565" />
+        <entry key="..\:/Computer_Science/AndroidStudioProjects/GameSuite/app/src/main/res/layout/activity_chimp_game_start_page.xml" value="0.1480978260869565" />
+        <entry key="..\:/Computer_Science/AndroidStudioProjects/GameSuite/app/src/main/res/layout/activity_connect5.xml" value="0.4" />
+        <entry key="..\:/Computer_Science/AndroidStudioProjects/GameSuite/app/src/main/res/layout/activity_connect5_end_page.xml" value="0.1480978260869565" />
+        <entry key="..\:/Computer_Science/AndroidStudioProjects/GameSuite/app/src/main/res/layout/activity_connect5_selection.xml" value="0.1480978260869565" />
+        <entry key="..\:/Computer_Science/AndroidStudioProjects/GameSuite/app/src/main/res/layout/activity_connect5_start_page.xml" value="0.1480978260869565" />
+        <entry key="..\:/Computer_Science/AndroidStudioProjects/GameSuite/app/src/main/res/layout/activity_dungeon.xml" value="0.1480978260869565" />
+        <entry key="..\:/Computer_Science/AndroidStudioProjects/GameSuite/app/src/main/res/layout/activity_gobang.xml" value="0.1480978260869565" />
+        <entry key="..\:/Computer_Science/AndroidStudioProjects/GameSuite/app/src/main/res/layout/activity_gobang_start_page.xml" value="0.1480978260869565" />
+        <entry key="..\:/Computer_Science/AndroidStudioProjects/GameSuite/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/Computer_Science/AndroidStudioProjects/GameSuite/app/src/main/res/layout/activity_main_screen_gui.xml" value="0.1480978260869565" />
+        <entry key="..\:/Computer_Science/AndroidStudioProjects/GameSuite/app/src/main/res/layout/activity_signup.xml" value="0.1480978260869565" />
+        <entry key="..\:/Computer_Science/AndroidStudioProjects/GameSuite/app/src/main/res/layout/activity_team_info.xml" value="0.1480978260869565" />
+        <entry key="..\:/Computer_Science/AndroidStudioProjects/GameSuite/app/src/main/res/layout/activity_wu_zi_qi.xml" value="0.1480978260869565" />
+        <entry key="..\:/Computer_Science/AndroidStudioProjects/GameSuite/app/src/main/res/layout/activity_wu_zi_qi_start_page.xml" value="0.1480978260869565" />
+        <entry key="..\:/Computer_Science/AndroidStudioProjects/GameSuite/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/Computer_Science/AndroidStudioProjects/GameSuite/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/button3_bg.xml" value="0.308" />
+        <entry key="app/src/main/res/drawable/button5_main_exit.xml" value="0.308" />
+        <entry key="app/src/main/res/drawable/button_connect5start.xml" value="0.308" />
+        <entry key="app/src/main/res/drawable/white_gray_rectangle.xml" value="0.308" />
+        <entry key="app/src/main/res/drawable/white_green_rectangle.xml" value="0.308" />
+        <entry key="app/src/main/res/layout/activity_2048_game.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_2048_game_end_page.xml" value="0.15729483282674772" />
+        <entry key="app/src/main/res/layout/activity_2048_game_start_page.xml" value="0.15729483282674772" />
+        <entry key="app/src/main/res/layout/activity_chimp_game.xml" value="0.3234375" />
+        <entry key="app/src/main/res/layout/activity_chimp_game_start_page.xml" value="0.3234375" />
+        <entry key="app/src/main/res/layout/activity_dungeon.xml" value="0.15729483282674772" />
+        <entry key="app/src/main/res/layout/activity_dungeon_character_selection.xml" value="0.16041666666666668" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.3234375" />
+        <entry key="app/src/main/res/layout/activity_main_screen_gui.xml" value="0.2607260726072607" />
+        <entry key="app/src/main/res/layout/activity_signup.xml" value="0.3234375" />
+        <entry key="app/src/main/res/layout/activity_team_info.xml" value="0.15729483282674772" />
+        <entry key="app/src/main/res/layout/activity_wu_zi_qi.xml" value="0.21571350097656256" />
+        <entry key="app/src/main/res/layout/activity_wu_zi_qi_start_page.xml" value="0.34102783203125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="SuppressionsComponent">
+    <option name="suppComments" value="[]" />
+  </component>
+</project>
