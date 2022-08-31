@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="chimp_game_background">#7DC8FF</color>
+    <color name="hint_gray">#696969</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="text_background_white">#F7F7F7</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">GameSuite</string>
+    <string name="are_you_smarter_than_a_chimpanzee">Are You Smarter \nThan a Chimpanzee?</string>
+    <string name="chimp_game">Chimp Game</string>
+    <string name="chimpanzee_game_icon_01">Chimpanzee Game Icon 01</string>
+    <string name="chimpanzee_game_icon_02">Chimpanzee Game Icon 02</string>
+    <string name="chimpanzee_game_icon_03">Chimpanzee Game Icon 03</string>
+    <string name="chimpanzee_game_icon_04">Chimpanzee Game Icon 04</string>
+    <string name="click_the_square_in_order_according_to_their_numbers_the_test_will_get_progressively_harder">Click box in order based on their numbers. \nThe test will get progressively harder.</string>
+    <string name="gui_exit">EXIT</string>
+    <string name="gui_game02">2048 (ID)</string>
+    <string name="gui_game03">Dungeon (ID)</string>
+    <string name="home">Home</string>
+    <string name="main_screen_by_team_01">by Team 01</string>
+    <string name="main_screen_gui_title">Game Suite</string>
+    <string name="memory_game">Memory Game</string>
+    <string name="numbers">NUMBERS</string>
+    <string name="save_score">Save score</string>
+    <string name="save_your_score_to_see_how_you_compare">Save your score to see how you compare.</string>
+    <string name="score">Score</string>
+    <string name="start_test">Start Test</string>
+    <string name="strikes">STRIKES</string>
+    <string name="team_info">Team Information</string>
+    <string name="team_information">Team Information</string>
+    <string name="team_member">Zhisen An \nzan30@gatech.edu \n\n Kaixiang Cui \nkcui44@gatech.edu \n\nShijie Wang \nswang953@gatech.edu \n\nZixiang Xu \nzxu635@gatech.edu\n\nGuanfeng Chen \ngchen363@gatech.edu</string>
+    <string name="text_signin_button_signin">Log in</string>
+    <string name="text_signin_game_icon">Game Icon</string>
+    <string name="text_signin_hint">Hello, please sign in.</string>
+    <string name="text_signin_password">Password</string>
+    <string name="text_signin_signup">Don\'t have an account? <b>Sign up</b></string>
+    <string name="text_signin_username">Username</string>
+    <string name="text_signup_button_sign_up">Sign Up</string>
+    <string name="text_signup_confirm_password">Confirm Password</string>
+    <string name="text_signup_hint">Let us set up your account quickly!</string>
+    <string name="try_again">Try again</string>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Button1" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:background">@drawable/button1_bg</item>
+        <item name="android:minWidth">200dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="Button2" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:background">@drawable/button2_bg</item>
+        <item name="android:minWidth">200dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="Button_Exit" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:background">@drawable/button5_main_exit</item>
+        <item name="android:minWidth">200dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="Button_Game" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:background">@drawable/button3_main_game</item>
+        <item name="android:minWidth">200dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="Button_Team" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:background">@drawable/button4_main_team</item>
+        <item name="android:minWidth">200dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="TextyButton" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="Theme.GameSuite" parent="Theme.MaterialComponents.DayNight.DarkActionBar.Bridge">
+        
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        
+    </style>
+    <style name="TransparentToolbar" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+</resources>

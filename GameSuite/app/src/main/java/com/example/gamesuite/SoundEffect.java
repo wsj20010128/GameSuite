@@ -15,7 +15,7 @@ public class SoundEffect {
     private static final int[] soundLoadList
             = new int[] {
             R.raw.button_click,
-            R.raw.button_2048
+            R.raw.button_game
     };
     // Sound pool for all sound effects
     private static SoundPool soundPool = null;

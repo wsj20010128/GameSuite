@@ -1,0 +1,108 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.gamesuite"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->E:\AndroidWorkspace\GameSuite\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->E:\AndroidWorkspace\GameSuite\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+11-->E:\AndroidWorkspace\GameSuite\app\src\main\AndroidManifest.xml:6:5-8:40
+11-->E:\AndroidWorkspace\GameSuite\app\src\main\AndroidManifest.xml:7:9-65
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->E:\AndroidWorkspace\GameSuite\app\src\main\AndroidManifest.xml:9:5-80
+12-->E:\AndroidWorkspace\GameSuite\app\src\main\AndroidManifest.xml:9:22-77
+13
+14    <application
+14-->E:\AndroidWorkspace\GameSuite\app\src\main\AndroidManifest.xml:11:5-41:19
+15        android:allowBackup="true"
+15-->E:\AndroidWorkspace\GameSuite\app\src\main\AndroidManifest.xml:12:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.7.0] C:\Users\Shijie\.gradle\caches\transforms-3\0c734a8f9451ded3159b05d46fc9a23a\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+17        android:dataExtractionRules="@xml/data_extraction_rules"
+17-->E:\AndroidWorkspace\GameSuite\app\src\main\AndroidManifest.xml:13:9-65
+18        android:fullBackupContent="@xml/backup_rules"
+18-->E:\AndroidWorkspace\GameSuite\app\src\main\AndroidManifest.xml:14:9-54
+19        android:icon="@mipmap/ic_launcher"
+19-->E:\AndroidWorkspace\GameSuite\app\src\main\AndroidManifest.xml:15:9-43
+20        android:label="@string/app_name"
+20-->E:\AndroidWorkspace\GameSuite\app\src\main\AndroidManifest.xml:16:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->E:\AndroidWorkspace\GameSuite\app\src\main\AndroidManifest.xml:17:9-54
+22        android:supportsRtl="true"
+22-->E:\AndroidWorkspace\GameSuite\app\src\main\AndroidManifest.xml:18:9-35
+23        android:theme="@style/Theme.GameSuite" >
+23-->E:\AndroidWorkspace\GameSuite\app\src\main\AndroidManifest.xml:19:9-47
+24        <activity
+24-->E:\AndroidWorkspace\GameSuite\app\src\main\AndroidManifest.xml:21:9-23:40
+25            android:name="com.example.gamesuite.ChimpGameScorePage"
+25-->E:\AndroidWorkspace\GameSuite\app\src\main\AndroidManifest.xml:22:13-47
+26            android:exported="false" />
+26-->E:\AndroidWorkspace\GameSuite\app\src\main\AndroidManifest.xml:23:13-37
+27        <activity
+27-->E:\AndroidWorkspace\GameSuite\app\src\main\AndroidManifest.xml:24:9-26:40
+28            android:name="com.example.gamesuite.ChimpGameEndPage"
+28-->E:\AndroidWorkspace\GameSuite\app\src\main\AndroidManifest.xml:25:13-45
+29            android:exported="false" />
+29-->E:\AndroidWorkspace\GameSuite\app\src\main\AndroidManifest.xml:26:13-37
+30        <activity
+30-->E:\AndroidWorkspace\GameSuite\app\src\main\AndroidManifest.xml:27:9-35:20
+31            android:name="com.example.gamesuite.LogInControl"
+31-->E:\AndroidWorkspace\GameSuite\app\src\main\AndroidManifest.xml:28:13-41
+32            android:exported="true" >
+32-->E:\AndroidWorkspace\GameSuite\app\src\main\AndroidManifest.xml:29:13-36
+33            <intent-filter>
+33-->E:\AndroidWorkspace\GameSuite\app\src\main\AndroidManifest.xml:30:13-34:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->E:\AndroidWorkspace\GameSuite\app\src\main\AndroidManifest.xml:31:17-69
+34-->E:\AndroidWorkspace\GameSuite\app\src\main\AndroidManifest.xml:31:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->E:\AndroidWorkspace\GameSuite\app\src\main\AndroidManifest.xml:33:17-77
+36-->E:\AndroidWorkspace\GameSuite\app\src\main\AndroidManifest.xml:33:27-74
+37            </intent-filter>
+38        </activity>
+39        <activity android:name="com.example.gamesuite.SignUpControl" />
+39-->E:\AndroidWorkspace\GameSuite\app\src\main\AndroidManifest.xml:36:9-51
+39-->E:\AndroidWorkspace\GameSuite\app\src\main\AndroidManifest.xml:36:19-48
+40        <activity android:name="com.example.gamesuite.MainScreenGUI" />
+40-->E:\AndroidWorkspace\GameSuite\app\src\main\AndroidManifest.xml:37:9-51
+40-->E:\AndroidWorkspace\GameSuite\app\src\main\AndroidManifest.xml:37:19-48
+41        <activity android:name="com.example.gamesuite.TeamInfo" />
+41-->E:\AndroidWorkspace\GameSuite\app\src\main\AndroidManifest.xml:38:9-46
+41-->E:\AndroidWorkspace\GameSuite\app\src\main\AndroidManifest.xml:38:19-43
+42        <activity android:name="com.example.gamesuite.ChimpGameStartPage" />
+42-->E:\AndroidWorkspace\GameSuite\app\src\main\AndroidManifest.xml:39:9-56
+42-->E:\AndroidWorkspace\GameSuite\app\src\main\AndroidManifest.xml:39:19-53
+43        <activity android:name="com.example.gamesuite.ChimpGame" />
+43-->E:\AndroidWorkspace\GameSuite\app\src\main\AndroidManifest.xml:40:9-47
+43-->E:\AndroidWorkspace\GameSuite\app\src\main\AndroidManifest.xml:40:19-44
+44
+45        <provider
+45-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Shijie\.gradle\caches\transforms-3\9cb5d0b2fd275b8005e0d8fda37c4df6\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+46            android:name="androidx.startup.InitializationProvider"
+46-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Shijie\.gradle\caches\transforms-3\9cb5d0b2fd275b8005e0d8fda37c4df6\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+47            android:authorities="com.example.gamesuite.androidx-startup"
+47-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Shijie\.gradle\caches\transforms-3\9cb5d0b2fd275b8005e0d8fda37c4df6\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+48            android:exported="false" >
+48-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Shijie\.gradle\caches\transforms-3\9cb5d0b2fd275b8005e0d8fda37c4df6\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+49            <meta-data
+49-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Shijie\.gradle\caches\transforms-3\9cb5d0b2fd275b8005e0d8fda37c4df6\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+50                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+50-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Shijie\.gradle\caches\transforms-3\9cb5d0b2fd275b8005e0d8fda37c4df6\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+51                android:value="androidx.startup" />
+51-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Shijie\.gradle\caches\transforms-3\9cb5d0b2fd275b8005e0d8fda37c4df6\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+52            <meta-data
+52-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Shijie\.gradle\caches\transforms-3\8eef53d9995d138e5396bc0361630197\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+53                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+53-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Shijie\.gradle\caches\transforms-3\8eef53d9995d138e5396bc0361630197\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+54                android:value="androidx.startup" />
+54-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Shijie\.gradle\caches\transforms-3\8eef53d9995d138e5396bc0361630197\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+55        </provider>
+56    </application>
+57
+58</manifest>

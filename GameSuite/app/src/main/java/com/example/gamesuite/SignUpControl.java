@@ -155,7 +155,7 @@ public class SignUpControl extends AppCompatActivity {
                                 FileWriter writer = new FileWriter(file, true);
                                 try {
                                     writer.write(security.encrypt(currentUsername) + "\n");
-                                    writer.write(security.encrypt(currentPassword) + "\n");
+                                    writer.write(security.encrypt(currentPassword));
                                 } catch (Exception e) {
                                     e.printStackTrace();
                                     System.exit(-1);
@@ -240,7 +240,6 @@ public class SignUpControl extends AppCompatActivity {
                 // data[0] = username
                 // data[1] = password
                 data[index++] = scan.nextLine();
-                scan.nextLine();
 
                 // When a pair of userdata (username + password) is read
                 if (index == 2) {

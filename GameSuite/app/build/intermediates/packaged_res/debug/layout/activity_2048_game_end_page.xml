@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/game2048_background"
+    tools:context=".Game2048EndPage">
+
+    <Button
+        android:id="@+id/game2048_button_end_page_return"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:drawableStart="@drawable/ic_white"
+        android:paddingStart="15dp"
+        tools:ignore="RtlSymmetry" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:fillViewport="true"
+        android:fitsSystemWindows="true"
+        tools:context=".Game2048EndPage">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:scrollbarThumbHorizontal="@null"
+            android:scrollbarThumbVertical="@null">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:orientation="vertical"
+                tools:ignore="UselessParent">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    tools:ignore="UselessParent">
+
+                    <ImageView
+                        android:id="@+id/game2048_end_rec_01"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginStart="117.5dp"
+                        android:contentDescription="@string/game2048_end_page_rectangle_01"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/white_rectangle" />
+
+                    <ImageView
+                        android:id="@+id/game2048_end_rec_02"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginStart="15dp"
+                        android:contentDescription="@string/game2048_end_page_rectangle_02"
+                        app:layout_constraintLeft_toRightOf="@id/game2048_end_rec_01"
+                        app:layout_constraintTop_toTopOf="@id/game2048_end_rec_01"
+                        app:srcCompat="@drawable/white_rectangle" />
+
+                    <ImageView
+                        android:id="@+id/game2048_end_rec_03"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginStart="117.5dp"
+                        android:layout_marginTop="15dp"
+                        android:contentDescription="@string/game2048_end_page_rectangle_03"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/game2048_end_rec_02"
+                        app:srcCompat="@drawable/white_rectangle" />
+
+                    <ImageView
+                        android:id="@+id/game2048_end_rec_04"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginStart="15dp"
+                        android:contentDescription="@string/game2048_end_page_rectangle_04"
+                        app:layout_constraintLeft_toRightOf="@id/game2048_end_rec_03"
+                        app:layout_constraintTop_toTopOf="@id/game2048_end_rec_03"
+                        app:srcCompat="@drawable/white_green_rectangle" />
+
+                    <TextView
+                        android:id="@+id/game_2048_score_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:text=""
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:typeface="monospace"
+                        app:fontFamily="@font/font_game"
+                        app:layout_constraintTop_toBottomOf="@id/game2048_end_rec_04"
+                        app:layout_goneMarginTop="5dp" />
+
+                    <TextView
+                        android:id="@+id/game_2048_score_title_info"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="18dp"
+                        android:text="@string/score"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:typeface="monospace"
+                        app:fontFamily="@font/font_game"
+                        app:layout_constraintTop_toBottomOf="@id/game_2048_score_title"
+                        app:layout_goneMarginTop="5dp" />
+
+                    <TextView
+                        android:id="@+id/game2048_score"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="80sp"
+                        android:textStyle="bold"
+                        android:typeface="monospace"
+                        app:fontFamily="@font/font_game"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/game_2048_score_title_info"
+                        app:layout_goneMarginTop="5dp"
+                        />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <Button
+                    android:id="@+id/game_2048_try_again_button"
+                    style="@style/Game2048_Button"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="132dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/try_again" />
+
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/chimp_game_background"
+    tools:context=".ChimpGameStartPage">
+
+    <Button
+        android:id="@+id/button_chimp_game_start_page_return"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:drawableStart="@drawable/ic_white"
+        android:paddingStart="15dp"
+        tools:ignore="RtlSymmetry" />
+
+    <ScrollView
+        android:layout_below="@id/button_chimp_game_start_page_return"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:fillViewport="true"
+        android:fitsSystemWindows="true"
+        tools:context=".ChimpGameStartPage">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:scrollbarThumbHorizontal="@null"
+            android:scrollbarThumbVertical="@null">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:orientation="vertical"
+                tools:ignore="UselessParent">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    tools:ignore="UselessParent">
+
+                    <ImageView
+                        android:id="@+id/rec0"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginStart="117.5dp"
+                        android:contentDescription="@string/chimpanzee_game_icon_01"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/white_rectangle" />
+
+                    <ImageView
+                        android:id="@+id/rec1"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginStart="15dp"
+                        android:contentDescription="@string/chimpanzee_game_icon_02"
+                        app:layout_constraintLeft_toRightOf="@id/rec0"
+                        app:layout_constraintTop_toTopOf="@id/rec0"
+                        app:srcCompat="@drawable/white_rectangle" />
+
+                    <ImageView
+                        android:id="@+id/rec2"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginStart="117.5dp"
+                        android:layout_marginTop="15dp"
+                        android:contentDescription="@string/chimpanzee_game_icon_03"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/rec0"
+                        app:srcCompat="@drawable/white_rectangle" />
+
+                    <ImageView
+                        android:id="@+id/rec3"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginStart="15dp"
+                        android:contentDescription="@string/chimpanzee_game_icon_04"
+                        app:layout_constraintLeft_toRightOf="@id/rec2"
+                        app:layout_constraintTop_toTopOf="@id/rec2"
+                        app:srcCompat="@drawable/white_blue_rectangle" />
+
+                    <TextView
+                        android:id="@+id/text0"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="48dp"
+                        android:text="@string/are_you_smarter_than_a_chimpanzee"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:typeface="monospace"
+                        app:fontFamily="@font/font_game"
+                        app:layout_constraintTop_toBottomOf="@id/rec3"
+                        app:layout_goneMarginTop="5dp"
+                        tools:layout_editor_absoluteX="0dp" />
+
+                    <TextView
+                        android:id="@+id/text1"
+                        android:layout_width="325dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="44dp"
+                        android:text="@string/click_the_square_in_order_according_to_their_numbers_the_test_will_get_progressively_harder"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:typeface="monospace"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/text0"
+                        app:layout_goneMarginTop="5dp" />
+
+                    <Button
+                        android:id="@+id/start_button"
+                        style="@style/Button2"
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="124dp"
+                        android:layout_marginTop="32dp"
+                        android:text="@string/start_test"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/text1" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

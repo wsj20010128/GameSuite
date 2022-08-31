@@ -1,0 +1,198 @@
+[
+    {
+        "merged": "com.example.gamesuite.app-merged_res-26:/drawable_white_blue_rectangle.xml.flat",
+        "source": "com.example.gamesuite.app-main-27:/drawable/white_blue_rectangle.xml"
+    },
+    {
+        "merged": "com.example.gamesuite.app-merged_res-26:/drawable_button3_main_game.xml.flat",
+        "source": "com.example.gamesuite.app-main-27:/drawable/button3_main_game.xml"
+    },
+    {
+        "merged": "com.example.gamesuite.app-merged_res-26:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.gamesuite.app-main-27:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.gamesuite.app-merged_res-26:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.gamesuite.app-main-27:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.gamesuite.app-merged_res-26:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.gamesuite.app-main-27:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.gamesuite.app-merged_res-26:/drawable_white_rectangle.xml.flat",
+        "source": "com.example.gamesuite.app-main-27:/drawable/white_rectangle.xml"
+    },
+    {
+        "merged": "com.example.gamesuite.app-merged_res-26:/layout_activity_team_info.xml.flat",
+        "source": "com.example.gamesuite.app-main-27:/layout/activity_team_info.xml"
+    },
+    {
+        "merged": "com.example.gamesuite.app-merged_res-26:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.gamesuite.app-main-27:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.gamesuite.app-merged_res-26:/drawable-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.gamesuite.app-pngs-21:/drawable-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.gamesuite.app-merged_res-26:/drawable_ic_back.xml.flat",
+        "source": "com.example.gamesuite.app-main-27:/drawable/ic_back.xml"
+    },
+    {
+        "merged": "com.example.gamesuite.app-merged_res-26:/layout_activity_chimp_game.xml.flat",
+        "source": "com.example.gamesuite.app-main-27:/layout/activity_chimp_game.xml"
+    },
+    {
+        "merged": "com.example.gamesuite.app-merged_res-26:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.gamesuite.app-main-27:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.gamesuite.app-merged_res-26:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.gamesuite.app-pngs-21:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.gamesuite.app-merged_res-26:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.gamesuite.app-main-27:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.gamesuite.app-merged_res-26:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.gamesuite.app-main-27:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.gamesuite.app-merged_res-26:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.gamesuite.app-main-27:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.gamesuite.app-merged_res-26:/drawable-ldpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.gamesuite.app-pngs-21:/drawable-ldpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.gamesuite.app-merged_res-26:/drawable_ic_white.xml.flat",
+        "source": "com.example.gamesuite.app-main-27:/drawable/ic_white.xml"
+    },
+    {
+        "merged": "com.example.gamesuite.app-merged_res-26:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.gamesuite.app-main-27:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.gamesuite.app-merged_res-26:/drawable_button4_main_team.xml.flat",
+        "source": "com.example.gamesuite.app-main-27:/drawable/button4_main_team.xml"
+    },
+    {
+        "merged": "com.example.gamesuite.app-merged_res-26:/font_font_team_member.ttf.flat",
+        "source": "com.example.gamesuite.app-main-27:/font/font_team_member.ttf"
+    },
+    {
+        "merged": "com.example.gamesuite.app-merged_res-26:/layout_activity_login.xml.flat",
+        "source": "com.example.gamesuite.app-main-27:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.gamesuite.app-merged_res-26:/xml_backup_rules.xml.flat",
+        "source": "com.example.gamesuite.app-main-27:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.gamesuite.app-merged_res-26:/font_font_game_chimp.ttf.flat",
+        "source": "com.example.gamesuite.app-main-27:/font/font_game_chimp.ttf"
+    },
+    {
+        "merged": "com.example.gamesuite.app-merged_res-26:/drawable_signup_dummy_user_icon.png.flat",
+        "source": "com.example.gamesuite.app-main-27:/drawable/signup_dummy_user_icon.png"
+    },
+    {
+        "merged": "com.example.gamesuite.app-merged_res-26:/font_chimp_font.xml.flat",
+        "source": "com.example.gamesuite.app-main-27:/font/chimp_font.xml"
+    },
+    {
+        "merged": "com.example.gamesuite.app-merged_res-26:/drawable_ic_person.xml.flat",
+        "source": "com.example.gamesuite.app-main-27:/drawable/ic_person.xml"
+    },
+    {
+        "merged": "com.example.gamesuite.app-merged_res-26:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.gamesuite.app-main-27:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.gamesuite.app-merged_res-26:/drawable-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.gamesuite.app-pngs-21:/drawable-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.gamesuite.app-merged_res-26:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.gamesuite.app-main-27:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.gamesuite.app-merged_res-26:/drawable-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.gamesuite.app-pngs-21:/drawable-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.gamesuite.app-merged_res-26:/font_font_main_title.ttf.flat",
+        "source": "com.example.gamesuite.app-main-27:/font/font_main_title.ttf"
+    },
+    {
+        "merged": "com.example.gamesuite.app-merged_res-26:/drawable_button5_main_exit.xml.flat",
+        "source": "com.example.gamesuite.app-main-27:/drawable/button5_main_exit.xml"
+    },
+    {
+        "merged": "com.example.gamesuite.app-merged_res-26:/drawable_signin_game_logo.png.flat",
+        "source": "com.example.gamesuite.app-main-27:/drawable/signin_game_logo.png"
+    },
+    {
+        "merged": "com.example.gamesuite.app-merged_res-26:/layout_activity_chimp_game_end_page.xml.flat",
+        "source": "com.example.gamesuite.app-main-27:/layout/activity_chimp_game_end_page.xml"
+    },
+    {
+        "merged": "com.example.gamesuite.app-merged_res-26:/raw_water_drop.wav.flat",
+        "source": "com.example.gamesuite.app-main-27:/raw/water_drop.wav"
+    },
+    {
+        "merged": "com.example.gamesuite.app-merged_res-26:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.gamesuite.app-main-27:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.gamesuite.app-merged_res-26:/drawable_ic_lock.xml.flat",
+        "source": "com.example.gamesuite.app-main-27:/drawable/ic_lock.xml"
+    },
+    {
+        "merged": "com.example.gamesuite.app-merged_res-26:/drawable-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.gamesuite.app-pngs-21:/drawable-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.gamesuite.app-merged_res-26:/drawable-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.gamesuite.app-pngs-21:/drawable-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.gamesuite.app-merged_res-26:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.gamesuite.app-main-27:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.gamesuite.app-merged_res-26:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.gamesuite.app-main-27:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.gamesuite.app-merged_res-26:/layout_activity_chimp_game_start_page.xml.flat",
+        "source": "com.example.gamesuite.app-main-27:/layout/activity_chimp_game_start_page.xml"
+    },
+    {
+        "merged": "com.example.gamesuite.app-merged_res-26:/drawable_button2_bg.xml.flat",
+        "source": "com.example.gamesuite.app-main-27:/drawable/button2_bg.xml"
+    },
+    {
+        "merged": "com.example.gamesuite.app-merged_res-26:/drawable_button1_bg.xml.flat",
+        "source": "com.example.gamesuite.app-main-27:/drawable/button1_bg.xml"
+    },
+    {
+        "merged": "com.example.gamesuite.app-merged_res-26:/layout_activity_main_screen_gui.xml.flat",
+        "source": "com.example.gamesuite.app-main-27:/layout/activity_main_screen_gui.xml"
+    },
+    {
+        "merged": "com.example.gamesuite.app-merged_res-26:/font_font_main_subtitle.ttf.flat",
+        "source": "com.example.gamesuite.app-main-27:/font/font_main_subtitle.ttf"
+    },
+    {
+        "merged": "com.example.gamesuite.app-merged_res-26:/layout_activity_signup.xml.flat",
+        "source": "com.example.gamesuite.app-main-27:/layout/activity_signup.xml"
+    },
+    {
+        "merged": "com.example.gamesuite.app-merged_res-26:/layout_activity_chimp_game_score_page.xml.flat",
+        "source": "com.example.gamesuite.app-main-27:/layout/activity_chimp_game_score_page.xml"
+    }
+]

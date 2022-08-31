@@ -52,6 +52,7 @@ public class ChimpGame extends AppCompatActivity implements View.OnClickListener
         helpButton.setOnClickListener(help -> {
             AlertDialog.Builder builder = new AlertDialog.Builder(ChimpGame.this);
             builder.setCancelable(true);
+            builder.setPositiveButton("OK", (dialog, id) -> SoundEffect.playSound(0));
             builder.setMessage("Click on the buttons in order based on their number. Once you start, the rest will be " +
                     "whited out. Make sure you remember all of them before starting to click!");
             builder.show();

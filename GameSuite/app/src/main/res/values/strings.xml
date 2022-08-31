@@ -44,4 +44,16 @@
     <string name="game2048_end_page_rectangle_02">Rectangle 02 of game 2048 end page</string>
     <string name="game2048_end_page_rectangle_03">Rectangle 03 of game 2048 end page</string>
     <string name="game2048_end_page_rectangle_04">Rectangle 04 of game 2048 end page</string>
+    <string name="connect_5_help_info">Help</string>
+    <string name="connect_5_start_page_title">Connect 5</string>
+    <string name="connect_5_start_page_introduction">Take turns with your opponent and place pieces onto the board! Try to be the first person that gets 5 in a row to win!</string>
+    <string name="connect_5_game_over">Game Over!</string>
+    <string name="connect_5_restart_btn">Restart</string>
+    <string name="connect_5_characters">Characters</string>
+    <string name="connect_5_start">Start</string>
+    <string name="connect_5_top">Connect 5</string>
+    <string name="connect_5_introduction">Take turns placing pieces with your opponent. The first person to have 5 pieces in a row wins!</string>
+    <string name="connect_5_start_btn">Start</string>
+    <string name="help">Help</string>
+    <string name="chimp_end_continue">Continue</string>
 </resources>

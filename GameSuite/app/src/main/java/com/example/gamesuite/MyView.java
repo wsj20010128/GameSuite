@@ -1,10 +1,7 @@
 package com.example.gamesuite;
 
 import android.app.Activity;
-import androidx.appcompat.app.AppCompatActivity;
-import android.app.AlertDialog;
 import android.content.Context;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -16,31 +13,21 @@ import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
 import java.util.Random;
-
 import androidx.annotation.Nullable;
-
-import com.example.gamesuite.R;
-import com.example.gamesuite.MainScreenGUI;
-
 import java.util.ArrayList;
-import java.util.Random;
 
 public class MyView extends View{
 
     private Context mContext;
-
     private Paint mPaint;  // draw board
     private Bitmap wPieces;
     private Bitmap bPieces;
-    
     private ArrayList<Point> wPoints;
     private ArrayList<Point> bPoints;
-
     private int mPanelWith;
     private float mLineHeight;
     private static final int MAX_LINE = 10; //spots on the board
     private float radioPiece = 1.0f * 3 / 4;
-
     private IsChessWin mIsChessWin;
     private boolean gameOverMethod; // game over var
     private boolean wChessStart = true; // which side goes
@@ -76,8 +63,8 @@ public class MyView extends View{
         mPaint.setDither(true);
         mPaint.setStyle(Paint.Style.STROKE);
         //pieces images
-        wPieces = BitmapFactory.decodeResource(getResources(), R.mipmap.chess01);
-        bPieces = BitmapFactory.decodeResource(getResources(), R.mipmap.chess02);
+        wPieces = BitmapFactory.decodeResource(getResources(), R.drawable.chess01);
+        bPieces = BitmapFactory.decodeResource(getResources(), R.drawable.chess02);
         // stores piece positions
         wPoints = new ArrayList<>();
         bPoints = new ArrayList<>();
@@ -107,7 +94,7 @@ public class MyView extends View{
         super.onDraw(canvas);
         drawBoard(canvas);
         drawPieces(canvas);
-        mIsChessWin = new IsChessWin(mContext);
+        mIsChessWin = new IsChessWin();
         gameOverMethod = mIsChessWin.isGameOverMethod(wPoints, bPoints);
         if (gameOverMethod) {
             finishGame();
@@ -117,7 +104,7 @@ public class MyView extends View{
     /**
      * draw board
      *
-     * @param canvas
+     * @param canvas the canvas drawn
      */
     private void drawBoard(Canvas canvas) {
         int w = mPanelWith;
@@ -134,7 +121,7 @@ public class MyView extends View{
     /**
      * draw pieces upon placed position
      *
-     * @param canvas
+     * @param canvas the canvas drawn
      */
     private void drawPieces(Canvas canvas) {
         for (int i = 0; i < wPoints.size(); i++) {

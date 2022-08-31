@@ -1,0 +1,450 @@
+[
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\drawable_button1_bg.xml.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\drawable\\button1_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\layout_activity_main_screen_gui.xml.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\layout\\activity_main_screen_gui.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\font_font_main_subtitle.ttf.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\font\\font_main_subtitle.ttf"
+    },
+    {
+        "merged": "com.example.gamesuite.app-merged_res-26:/raw_button_game.mp3.flat",
+        "source": "com.example.gamesuite.app-main-28:/raw/button_game.mp3"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\drawable_character2.png.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\drawable\\character2.png"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\drawable_connect5btn.png.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\drawable\\connect5btn.png"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\drawable_ic_lock.xml.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\drawable\\ic_lock.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\drawable_white_gray_rectangle.xml.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\drawable\\white_gray_rectangle.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\layout_activity_chimp_game_end_page.xml.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\layout\\activity_chimp_game_end_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\drawable-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-pngs-21:\\drawable-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\drawable_btn.png.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\drawable\\btn.png"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\layout_activity_signup.xml.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\layout\\activity_signup.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\drawable_game2048_button_down.xml.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\drawable\\game2048_button_down.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\drawable_button5_main_exit.xml.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\drawable\\button5_main_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\raw_button_2048.mp3.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\raw\\button_2048.mp3"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\drawable_character1.png.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\drawable\\character1.png"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\drawable_button3_main_game.xml.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\drawable\\button3_main_game.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\drawable_game2048_button_left.xml.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\drawable\\game2048_button_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\drawable_stone_b1.png.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\drawable\\stone_b1.png"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\layout_activity_2048_game_start_page.xml.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\layout\\activity_2048_game_start_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\layout_activity_wu_zi_qi_start_page.xml.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\layout\\activity_wu_zi_qi_start_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\layout_activity_connect5.xml.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\layout\\activity_connect5.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\drawable_game2048_grid_32.xml.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\drawable\\game2048_grid_32.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\font_font_game.ttf.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\font\\font_game.ttf"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\drawable_game2048_grid_256.xml.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\drawable\\game2048_grid_256.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\layout_activity_wu_zi_qi.xml.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\layout\\activity_wu_zi_qi.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\drawable_dungeon_background.png.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\drawable\\dungeon_background.png"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\drawable_button2_bg.xml.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\drawable\\button2_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\layout_activity_dungeon.xml.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\layout\\activity_dungeon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-pngs-21:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\drawable_game2048_grid_512.xml.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\drawable\\game2048_grid_512.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\drawable_gobang_board.png.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\drawable\\gobang_board.png"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\drawable_game2048_grid_2.xml.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\drawable\\game2048_grid_2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\drawable_stone_w2.png.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\drawable\\stone_w2.png"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\layout_activity_connect5_selection.xml.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\layout\\activity_connect5_selection.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\drawable_memory_btn.png.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\drawable\\memory_btn.png"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\drawable_game2048_grid_8.xml.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\drawable\\game2048_grid_8.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\drawable-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-pngs-21:\\drawable-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\drawable_chess01.png.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\drawable\\chess01.png"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\drawable_game2048_button_right.xml.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\drawable\\game2048_button_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\layout_activity_chimp_game.xml.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\layout\\activity_chimp_game.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\drawable_signup_dummy_user_icon.png.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\drawable\\signup_dummy_user_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\drawable_game2048_grid_128.xml.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\drawable\\game2048_grid_128.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\drawable_dungeon_btn.png.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\drawable\\dungeon_btn.png"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\drawable_ic_white.xml.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\drawable\\ic_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\drawable_game2048_grid_64.xml.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\drawable\\game2048_grid_64.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\drawable_ic_back.xml.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\drawable\\ic_back.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\layout_activity_chimp_game_score_page.xml.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\layout\\activity_chimp_game_score_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\drawable-ldpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-pngs-21:\\drawable-ldpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\drawable_white_rectangle.xml.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\drawable\\white_rectangle.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\drawable_game03_chess03.png.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\drawable\\game03_chess03.png"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\drawable_game2048_grid_board.xml.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\drawable\\game2048_grid_board.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\drawable_gobangboard.png.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\drawable\\gobangboard.png"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\drawable_button3_bg.xml.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\drawable\\button3_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\drawable_a2048_btn.png.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\drawable\\a2048_btn.png"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\font_font_main_title.ttf.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\font\\font_main_title.ttf"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\drawable_game2048_grid_4.xml.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\drawable\\game2048_grid_4.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\drawable_chess03.png.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\drawable\\chess03.png"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\layout_activity_2048_game_end_page.xml.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\layout\\activity_2048_game_end_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\drawable_exit_or_home_btn.xml.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\drawable\\exit_or_home_btn.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\drawable_example.xml.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\drawable\\example.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\drawable_ic_person.xml.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\drawable\\ic_person.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\layout_activity_connect5_end_page.xml.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\layout\\activity_connect5_end_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\drawable_signin_game_logo.png.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\drawable\\signin_game_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\drawable_game03_chess02.png.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\drawable\\game03_chess02.png"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\layout_activity_gobang_start_page.xml.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\layout\\activity_gobang_start_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\font_chimp_font.xml.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\font\\chimp_font.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\drawable-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-pngs-21:\\drawable-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\drawable_exitorhome_btn.xml.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\drawable\\exitorhome_btn.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\raw_chimp_correct.mp3.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\raw\\chimp_correct.mp3"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\drawable_game2048_button_up.xml.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\drawable\\game2048_button_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\layout_activity_connect5_start_page.xml.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\layout\\activity_connect5_start_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\layout_activity_team_info.xml.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\layout\\activity_team_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\drawable_chess02.png.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\drawable\\chess02.png"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\drawable_game2048_grid_1024.xml.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\drawable\\game2048_grid_1024.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\drawable_a2048logo.jpg.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\drawable\\a2048logo.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\drawable_white_green_rectangle.xml.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\drawable\\white_green_rectangle.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\drawable_game2048_grid_null.xml.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\drawable\\game2048_grid_null.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\drawable-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-pngs-21:\\drawable-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\drawable_main_gui_background_photo.png.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\drawable\\main_gui_background_photo.png"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\drawable_game2048_grid_2048.xml.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\drawable\\game2048_grid_2048.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\drawable_button4_main_team.xml.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\drawable\\button4_main_team.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\drawable_background_photo.png.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\drawable\\background_photo.png"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\drawable_game03_chess01.png.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\drawable\\game03_chess01.png"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\layout_activity_chimp_game_start_page.xml.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\layout\\activity_chimp_game_start_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\layout_activity_2048_game.xml.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\layout\\activity_2048_game.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\font_font_team_member.ttf.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\font\\font_team_member.ttf"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\layout_activity_gobang.xml.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\layout\\activity_gobang.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\drawable_white_blue_rectangle.xml.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\drawable\\white_blue_rectangle.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\drawable_grid_null.xml.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\drawable\\grid_null.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\raw_button_click.mp3.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\raw\\button_click.mp3"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\drawable-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-pngs-21:\\drawable-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\drawable_button_connect5start.xml.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\drawable\\button_connect5start.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\drawable_game2048_grid_16.xml.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\drawable\\game2048_grid_16.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\raw_chimp_wrong.mp3.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\raw\\chimp_wrong.mp3"
+    },
+    {
+        "merged": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-merged_res-26:\\drawable_team_info_btn.png.flat",
+        "source": "C:\\Users\\Zixiang Xu\\.gradle\\daemon\\7.3.3\\com.example.gamesuite.app-main-28:\\drawable\\team_info_btn.png"
+    }
+]

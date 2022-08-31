@@ -14,7 +14,6 @@ import android.view.animation.AccelerateInterpolator;
 import android.widget.Button;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import java.util.HashMap;
@@ -124,6 +123,7 @@ public class Game2048 extends AppCompatActivity{
         helpButton.setOnClickListener(help -> {
             AlertDialog.Builder builder = new AlertDialog.Builder(Game2048.this);
             builder.setCancelable(true);
+            builder.setPositiveButton("OK", (dialog, id) -> SoundEffect.playSound(0));
             builder.setMessage("Click to buttons to slide the blocks around the board. If two blocks have" +
                     "the same number, they will merge into one block. Create a block with the 2048 value to win. Be careful! If" +
                     " all the spaces on the board get taken, you lose!");

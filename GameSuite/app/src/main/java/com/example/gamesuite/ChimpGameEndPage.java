@@ -1,6 +1,7 @@
 package com.example.gamesuite;
 
 import androidx.appcompat.app.AppCompatActivity;
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
@@ -10,11 +11,12 @@ import android.widget.TextView;
  * Chimp Game End Page.
  *
  * @author Shijie Wang
- * @version 1.0
+ * @version 2.0
  */
 
 public class ChimpGameEndPage extends AppCompatActivity {
 
+    @SuppressLint("SetTextI18n")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
