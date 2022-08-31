@@ -1,0 +1,6 @@
+<font-family xmlns:app="http://schemas.android.com/apk/res-auto">
+    <font app:fontStyle="normal" app:fontWeight="400" app:font="@font/font_game_chimp"/>
+    <font app:fontStyle="normal" app:fontWeight="400" app:font="@font/font_main_title"/>
+    <font app:fontStyle="normal" app:fontWeight="400" app:font="@font/font_main_subtitle"/>
+    <font app:fontStyle="normal" app:fontWeight="400" app:font="@font/font_team_member"/>
+</font-family>
