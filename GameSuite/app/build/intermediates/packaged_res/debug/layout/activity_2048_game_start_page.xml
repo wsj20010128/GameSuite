@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/game2048_background"
+    tools:context=".Game2048StartPage">
+
+    <Button
+        android:id="@+id/game2048_button_start_page_return"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:drawableStart="@drawable/ic_white"
+        android:paddingStart="15dp"
+        tools:ignore="RtlSymmetry" />
+
+    <ScrollView
+        android:layout_below="@id/game2048_button_start_page_return"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:fillViewport="true"
+        android:fitsSystemWindows="true"
+        tools:context=".Game2048StartPage">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:scrollbarThumbHorizontal="@null"
+            android:scrollbarThumbVertical="@null">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:orientation="vertical"
+                tools:ignore="UselessParent">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    tools:ignore="UselessParent">
+
+                    <ImageView
+                        android:id="@+id/game2048_rec0"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginStart="117.5dp"
+                        android:contentDescription="@string/game2048_startpage_icon_description_01"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/white_rectangle" />
+
+                    <ImageView
+                        android:id="@+id/game2048_rec1"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginStart="15dp"
+                        android:contentDescription="@string/game2048_startpage_icon_description_02"
+                        app:layout_constraintLeft_toRightOf="@id/game2048_rec0"
+                        app:layout_constraintTop_toTopOf="@id/game2048_rec0"
+                        app:srcCompat="@drawable/white_rectangle" />
+
+                    <ImageView
+                        android:id="@+id/game2048_rec2"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginStart="117.5dp"
+                        android:layout_marginTop="15dp"
+                        android:contentDescription="@string/game2048_startpage_icon_description_03"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/game2048_rec0"
+                        app:srcCompat="@drawable/white_rectangle" />
+
+                    <ImageView
+                        android:id="@+id/game2048_rec3"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginStart="15dp"
+                        android:contentDescription="@string/game2048_startpage_icon_description_04"
+                        app:layout_constraintLeft_toRightOf="@id/game2048_rec2"
+                        app:layout_constraintTop_toTopOf="@id/game2048_rec2"
+                        app:srcCompat="@drawable/white_green_rectangle" />
+
+                    <TextView
+                        android:id="@+id/game2048_text0"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="48dp"
+                        android:text="@string/game2048"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:typeface="monospace"
+                        app:fontFamily="@font/font_game"
+                        app:layout_constraintTop_toBottomOf="@id/game2048_rec3"
+                        app:layout_goneMarginTop="5dp"
+                        tools:layout_editor_absoluteX="0dp" />
+
+                    <TextView
+                        android:id="@+id/game2048_text1"
+                        android:layout_width="330dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="44dp"
+                        android:text="@string/game2048_description"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:typeface="monospace"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/game2048_text0"
+                        app:layout_goneMarginTop="5dp" />
+
+                    <Button
+                        android:id="@+id/game2048_start_button"
+                        style="@style/Game2048_Button"
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="124dp"
+                        android:layout_marginTop="32dp"
+                        android:text="@string/game2048_startpage_start_button"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/game2048_text1" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
