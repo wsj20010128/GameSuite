@@ -1,0 +1,60 @@
+<resources>
+
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Button1" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:background">@drawable/button1_bg</item>
+        <item name="android:minWidth">200dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="Button2" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:background">@drawable/button2_bg</item>
+        <item name="android:minWidth">200dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="Game2048_Button" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:background">@drawable/button3_bg</item>
+        <item name="android:minWidth">200dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="exit_or_home_button" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:background">@drawable/exit_or_home_btn</item>
+        <item name="android:minWidth">200dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="Button_Game" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:background">@drawable/button3_main_game</item>
+        <item name="android:minWidth">200dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="Button_Team" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:background">@drawable/button4_main_team</item>
+        <item name="android:minWidth">200dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="Button_Exit" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:background">@drawable/button5_main_exit</item>
+        <item name="android:minWidth">200dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="TextyButton" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="TransparentToolbar" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+</resources>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/dungeon_background"
+    android:orientation="vertical"
+    android:fillViewport="true"
+    android:fitsSystemWindows="true"
+    tools:context=".Connect5">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:scrollbarThumbHorizontal="@null"
+        android:scrollbarThumbVertical="@null">
+
+        <Button
+            android:id="@+id/gameDungeon_button_character_selection_return"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:drawableStart="@drawable/ic_white"
+            android:paddingStart="15dp"
+            tools:ignore="RtlSymmetry" />
+
+        <com.example.gamesuite.MyView
+            android:id="@+id/gameDungeon_view_chess"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:id="@+id/character_button1"
+            android:layout_width="120dp"
+            android:layout_height="167.55dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="80dp"
+            android:background="@android:color/transparent"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/character1"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="167.55dp"
+            android:layout_marginStart="540dp"
+            android:layout_marginTop="80dp"
+            android:background="@android:color/transparent"
+            app:srcCompat="@drawable/character2"
+            tools:ignore="ContentDescription" />
+
+        <Button
+            android:id="@+id/button_connect5_game_help"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="555dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/transparent"
+            android:paddingStart="15dp"
+            android:text="@string/connect_5_help_info"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            tools:ignore="RtlSymmetry" />
+
+        <ImageButton
+            android:id="@+id/skill_button1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="260dp"
+            android:background="@android:color/transparent"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/game03_chess01"
+            tools:ignore="ContentDescription">
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/skill_button2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="555dp"
+            android:layout_marginTop="260dp"
+            android:background="@android:color/transparent"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/game03_chess02"
+            tools:ignore="ContentDescription" />
+
+    </RelativeLayout>
+</ScrollView>

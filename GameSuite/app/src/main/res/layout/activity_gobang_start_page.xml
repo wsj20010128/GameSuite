@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bebebe"
+    tools:context=".Game2048StartPage">
+
+    <Button
+        android:id="@+id/game_gobang_button_start_page_return"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:drawableStart="@drawable/ic_white"
+        android:paddingStart="15dp"
+        tools:ignore="RtlSymmetry" />
+
+    <ScrollView
+        android:layout_below="@id/game_gobang_button_start_page_return"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:fillViewport="true"
+        android:fitsSystemWindows="true"
+        tools:context=".Game2048StartPage">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:scrollbarThumbHorizontal="@null"
+            android:scrollbarThumbVertical="@null">
+
+            <TextView
+                android:id="@+id/game_gobang_text1"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="370dp"
+                android:layout_marginEnd="47dp"
+                android:text="@string/connect_5_start_page_introduction"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:typeface="monospace"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    tools:ignore="UselessParent">
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            <Button
+                android:id="@+id/game_gobang_start_button"
+                style="@drawable/button_connect5start"
+                android:layout_width="159dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="116dp"
+                android:layout_marginTop="440dp"
+                android:layout_marginEnd="16dp"
+                android:text="@string/game2048_startpage_start_button"
+                android:textColor="#bebebe"
+                app:layout_constraintEnd_toEndOf="parent"
+                />
+
+            <ImageView
+                android:id="@+id/game_gobang_rec0"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="116dp"
+                android:layout_marginTop="40dp"
+                app:srcCompat="@drawable/white_rectangle"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/game_gobang_rec1"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="206dp"
+                android:layout_marginTop="40dp"
+                app:srcCompat="@drawable/white_rectangle"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/game_gobang_rec2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="116dp"
+                android:layout_marginTop="130dp"
+                app:srcCompat="@drawable/white_rectangle"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/game_gobang_rec3"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="206dp"
+                android:layout_marginTop="130dp"
+                app:srcCompat="@drawable/white_gray_rectangle"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/game_gobang_text0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="240dp"
+                android:text="@string/connect_5_start_page_title"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="50sp"
+                android:textStyle="bold"
+                android:typeface="monospace"
+                app:fontFamily="@font/font_game"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

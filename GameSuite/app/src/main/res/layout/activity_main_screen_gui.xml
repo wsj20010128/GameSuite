@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/main_gui_background_photo"
+    android:orientation="vertical"
+    android:fillViewport="true"
+    android:fitsSystemWindows="true"
+    tools:context=".MainScreenGUI">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:scrollbarThumbHorizontal="@null"
+        android:scrollbarThumbVertical="@null">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="34dp"
+            android:text="@string/main_screen_gui_title"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="70sp"
+            android:textStyle="bold"
+            app:fontFamily="@font/font_main_title" />
+
+        <TextView
+            android:id="@+id/main_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="95dp"
+            android:layout_marginEnd="140dp"
+            android:text="@string/main_screen_by_team_01"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:fontFamily="@font/font_main_subtitle"
+            tools:ignore="RelativeOverlap" />
+
+        <ImageButton
+            android:id="@+id/theMemoryGameBtn"
+            android:layout_width="130dp"
+            android:layout_height="160dp"
+            android:layout_gravity="start"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="150dp"
+            android:background="@drawable/memory_btn"
+            android:contentDescription="@string/app_name" />
+
+        <ImageButton
+            android:id="@+id/the2048GameBtn"
+            android:layout_width="130dp"
+            android:layout_height="160dp"
+            android:layout_marginStart="230dp"
+            android:layout_marginTop="150dp"
+            android:background="@drawable/a2048_btn"
+            android:contentDescription="@string/app_name" />
+
+        <ImageButton
+            android:id="@+id/theConnect5GameBtn"
+            android:layout_width="130dp"
+            android:layout_height="160dp"
+            android:layout_gravity="start"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="340dp"
+            android:background="@drawable/connect5btn"
+            android:contentDescription="@string/app_name" />
+
+        <ImageButton
+            android:id="@+id/teamBtn"
+            android:layout_width="130dp"
+            android:layout_height="160dp"
+            android:layout_gravity="start"
+            android:layout_marginStart="230dp"
+            android:layout_marginTop="340dp"
+            android:background="@drawable/team_info_btn"
+            android:contentDescription="@string/team_info" />
+
+        <Button
+            android:id="@+id/exitBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="160dp"
+            android:layout_marginTop="540dp"
+            android:background="#ff0307"
+            android:text="@string/gui_exit"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+</ScrollView>
