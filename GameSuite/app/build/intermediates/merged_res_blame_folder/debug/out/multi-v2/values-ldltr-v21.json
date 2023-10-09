@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.gamesuite.app-mergeDebugResources-24:/values-ldltr-v21/values-ldltr-v21.xml",
+            "outputFile": "com.example.gamesuite.app-mergeDebugResources-2:/values-ldltr-v21/values-ldltr-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Zixiang Xu\\.gradle\\caches\\transforms-3\\f053ca72a4906620f9d7f529c412475e\\transformed\\appcompat-1.4.2\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+                    "source": "E:\\Computer_Science\\AndroidStudioProjects\\Project_01\\gradle\\caches\\transforms-3\\42c94bc1ad1cba438dc816ae007705ab\\transformed\\appcompat-1.6.1\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

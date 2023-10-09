@@ -6,146 +6,200 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->E:\Computer_Science\AndroidStudioProjects\GameSuite\app\src\main\AndroidManifest.xml
-9        android:targetSdkVersion="32" />
-9-->E:\Computer_Science\AndroidStudioProjects\GameSuite\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="34" />
 10
 11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-11-->E:\Computer_Science\AndroidStudioProjects\GameSuite\app\src\main\AndroidManifest.xml:6:5-8:40
-11-->E:\Computer_Science\AndroidStudioProjects\GameSuite\app\src\main\AndroidManifest.xml:7:9-65
+11-->E:\Computer_Science\AndroidStudioProjects\GameSuite\GameSuite\app\src\main\AndroidManifest.xml:5:5-7:40
+11-->E:\Computer_Science\AndroidStudioProjects\GameSuite\GameSuite\app\src\main\AndroidManifest.xml:6:9-65
 12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-12-->E:\Computer_Science\AndroidStudioProjects\GameSuite\app\src\main\AndroidManifest.xml:9:5-80
-12-->E:\Computer_Science\AndroidStudioProjects\GameSuite\app\src\main\AndroidManifest.xml:9:22-77
+12-->E:\Computer_Science\AndroidStudioProjects\GameSuite\GameSuite\app\src\main\AndroidManifest.xml:8:5-80
+12-->E:\Computer_Science\AndroidStudioProjects\GameSuite\GameSuite\app\src\main\AndroidManifest.xml:8:22-77
 13
-14    <application
-14-->E:\Computer_Science\AndroidStudioProjects\GameSuite\app\src\main\AndroidManifest.xml:11:5-60:19
-15        android:allowBackup="true"
-15-->E:\Computer_Science\AndroidStudioProjects\GameSuite\app\src\main\AndroidManifest.xml:12:9-35
-16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-16-->[androidx.core:core:1.7.0] C:\Users\Zixiang Xu\.gradle\caches\transforms-3\0c734a8f9451ded3159b05d46fc9a23a\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
-17        android:dataExtractionRules="@xml/data_extraction_rules"
-17-->E:\Computer_Science\AndroidStudioProjects\GameSuite\app\src\main\AndroidManifest.xml:13:9-65
-18        android:debuggable="true"
-19        android:fullBackupContent="@xml/backup_rules"
-19-->E:\Computer_Science\AndroidStudioProjects\GameSuite\app\src\main\AndroidManifest.xml:14:9-54
-20        android:icon="@mipmap/ic_launcher"
-20-->E:\Computer_Science\AndroidStudioProjects\GameSuite\app\src\main\AndroidManifest.xml:15:9-43
-21        android:label="@string/app_name"
-21-->E:\Computer_Science\AndroidStudioProjects\GameSuite\app\src\main\AndroidManifest.xml:16:9-41
-22        android:roundIcon="@mipmap/ic_launcher_round"
-22-->E:\Computer_Science\AndroidStudioProjects\GameSuite\app\src\main\AndroidManifest.xml:17:9-54
-23        android:supportsRtl="true"
-23-->E:\Computer_Science\AndroidStudioProjects\GameSuite\app\src\main\AndroidManifest.xml:18:9-35
-24        android:testOnly="true"
-25        android:theme="@style/Theme.GameSuite" >
-25-->E:\Computer_Science\AndroidStudioProjects\GameSuite\app\src\main\AndroidManifest.xml:19:9-47
-26        <activity
-26-->E:\Computer_Science\AndroidStudioProjects\GameSuite\app\src\main\AndroidManifest.xml:21:9-24:53
-27            android:name="com.example.gamesuite.Connect5EndPage"
-27-->E:\Computer_Science\AndroidStudioProjects\GameSuite\app\src\main\AndroidManifest.xml:22:13-44
-28            android:exported="false"
-28-->E:\Computer_Science\AndroidStudioProjects\GameSuite\app\src\main\AndroidManifest.xml:23:13-37
-29            android:screenOrientation="landscape" />
-29-->E:\Computer_Science\AndroidStudioProjects\GameSuite\app\src\main\AndroidManifest.xml:24:13-50
-30        <activity
-30-->E:\Computer_Science\AndroidStudioProjects\GameSuite\app\src\main\AndroidManifest.xml:25:9-28:53
-31            android:name="com.example.gamesuite.Connect5"
-31-->E:\Computer_Science\AndroidStudioProjects\GameSuite\app\src\main\AndroidManifest.xml:26:13-37
-32            android:exported="false"
-32-->E:\Computer_Science\AndroidStudioProjects\GameSuite\app\src\main\AndroidManifest.xml:27:13-37
-33            android:screenOrientation="landscape" />
-33-->E:\Computer_Science\AndroidStudioProjects\GameSuite\app\src\main\AndroidManifest.xml:28:13-50
-34        <activity
-34-->E:\Computer_Science\AndroidStudioProjects\GameSuite\app\src\main\AndroidManifest.xml:29:9-32:53
-35            android:name="com.example.gamesuite.Connect5Selection"
-35-->E:\Computer_Science\AndroidStudioProjects\GameSuite\app\src\main\AndroidManifest.xml:30:13-46
-36            android:exported="false"
-36-->E:\Computer_Science\AndroidStudioProjects\GameSuite\app\src\main\AndroidManifest.xml:31:13-37
-37            android:screenOrientation="landscape" />
-37-->E:\Computer_Science\AndroidStudioProjects\GameSuite\app\src\main\AndroidManifest.xml:32:13-50
-38        <activity
-38-->E:\Computer_Science\AndroidStudioProjects\GameSuite\app\src\main\AndroidManifest.xml:33:9-36:53
-39            android:name="com.example.gamesuite.Connect5StartPage"
-39-->E:\Computer_Science\AndroidStudioProjects\GameSuite\app\src\main\AndroidManifest.xml:34:13-46
-40            android:exported="false"
-40-->E:\Computer_Science\AndroidStudioProjects\GameSuite\app\src\main\AndroidManifest.xml:35:13-37
-41            android:screenOrientation="landscape" />
-41-->E:\Computer_Science\AndroidStudioProjects\GameSuite\app\src\main\AndroidManifest.xml:36:13-50
-42        <activity
-42-->E:\Computer_Science\AndroidStudioProjects\GameSuite\app\src\main\AndroidManifest.xml:37:9-39:40
-43            android:name="com.example.gamesuite.ChimpGameScorePage"
-43-->E:\Computer_Science\AndroidStudioProjects\GameSuite\app\src\main\AndroidManifest.xml:38:13-47
-44            android:exported="false" />
-44-->E:\Computer_Science\AndroidStudioProjects\GameSuite\app\src\main\AndroidManifest.xml:39:13-37
+14    <permission
+14-->[androidx.core:core:1.9.0] C:\Users\Zixiang Xu\.gradle\caches\transforms-3\674c7ff4bbd4ef95d0df1a156c6f4ad8\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+15        android:name="com.example.gamesuite.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+15-->[androidx.core:core:1.9.0] C:\Users\Zixiang Xu\.gradle\caches\transforms-3\674c7ff4bbd4ef95d0df1a156c6f4ad8\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+16        android:protectionLevel="signature" />
+16-->[androidx.core:core:1.9.0] C:\Users\Zixiang Xu\.gradle\caches\transforms-3\674c7ff4bbd4ef95d0df1a156c6f4ad8\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+17
+18    <uses-permission android:name="com.example.gamesuite.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+18-->[androidx.core:core:1.9.0] C:\Users\Zixiang Xu\.gradle\caches\transforms-3\674c7ff4bbd4ef95d0df1a156c6f4ad8\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+18-->[androidx.core:core:1.9.0] C:\Users\Zixiang Xu\.gradle\caches\transforms-3\674c7ff4bbd4ef95d0df1a156c6f4ad8\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+19
+20    <application
+20-->E:\Computer_Science\AndroidStudioProjects\GameSuite\GameSuite\app\src\main\AndroidManifest.xml:10:5-59:19
+21        android:allowBackup="true"
+21-->E:\Computer_Science\AndroidStudioProjects\GameSuite\GameSuite\app\src\main\AndroidManifest.xml:11:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.9.0] C:\Users\Zixiang Xu\.gradle\caches\transforms-3\674c7ff4bbd4ef95d0df1a156c6f4ad8\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+23        android:dataExtractionRules="@xml/data_extraction_rules"
+23-->E:\Computer_Science\AndroidStudioProjects\GameSuite\GameSuite\app\src\main\AndroidManifest.xml:12:9-65
+24        android:debuggable="true"
+25        android:extractNativeLibs="true"
+26        android:fullBackupContent="@xml/backup_rules"
+26-->E:\Computer_Science\AndroidStudioProjects\GameSuite\GameSuite\app\src\main\AndroidManifest.xml:13:9-54
+27        android:icon="@mipmap/ic_launcher"
+27-->E:\Computer_Science\AndroidStudioProjects\GameSuite\GameSuite\app\src\main\AndroidManifest.xml:14:9-43
+28        android:label="@string/app_name"
+28-->E:\Computer_Science\AndroidStudioProjects\GameSuite\GameSuite\app\src\main\AndroidManifest.xml:15:9-41
+29        android:roundIcon="@mipmap/ic_launcher_round"
+29-->E:\Computer_Science\AndroidStudioProjects\GameSuite\GameSuite\app\src\main\AndroidManifest.xml:16:9-54
+30        android:supportsRtl="true"
+30-->E:\Computer_Science\AndroidStudioProjects\GameSuite\GameSuite\app\src\main\AndroidManifest.xml:17:9-35
+31        android:testOnly="true"
+32        android:theme="@style/Theme.GameSuite" >
+32-->E:\Computer_Science\AndroidStudioProjects\GameSuite\GameSuite\app\src\main\AndroidManifest.xml:18:9-47
+33        <activity
+33-->E:\Computer_Science\AndroidStudioProjects\GameSuite\GameSuite\app\src\main\AndroidManifest.xml:20:9-23:53
+34            android:name="com.example.gamesuite.Connect5EndPage"
+34-->E:\Computer_Science\AndroidStudioProjects\GameSuite\GameSuite\app\src\main\AndroidManifest.xml:21:13-44
+35            android:exported="false"
+35-->E:\Computer_Science\AndroidStudioProjects\GameSuite\GameSuite\app\src\main\AndroidManifest.xml:22:13-37
+36            android:screenOrientation="landscape" />
+36-->E:\Computer_Science\AndroidStudioProjects\GameSuite\GameSuite\app\src\main\AndroidManifest.xml:23:13-50
+37        <activity
+37-->E:\Computer_Science\AndroidStudioProjects\GameSuite\GameSuite\app\src\main\AndroidManifest.xml:24:9-27:53
+38            android:name="com.example.gamesuite.Connect5"
+38-->E:\Computer_Science\AndroidStudioProjects\GameSuite\GameSuite\app\src\main\AndroidManifest.xml:25:13-37
+39            android:exported="false"
+39-->E:\Computer_Science\AndroidStudioProjects\GameSuite\GameSuite\app\src\main\AndroidManifest.xml:26:13-37
+40            android:screenOrientation="landscape" />
+40-->E:\Computer_Science\AndroidStudioProjects\GameSuite\GameSuite\app\src\main\AndroidManifest.xml:27:13-50
+41        <activity
+41-->E:\Computer_Science\AndroidStudioProjects\GameSuite\GameSuite\app\src\main\AndroidManifest.xml:28:9-31:53
+42            android:name="com.example.gamesuite.Connect5Selection"
+42-->E:\Computer_Science\AndroidStudioProjects\GameSuite\GameSuite\app\src\main\AndroidManifest.xml:29:13-46
+43            android:exported="false"
+43-->E:\Computer_Science\AndroidStudioProjects\GameSuite\GameSuite\app\src\main\AndroidManifest.xml:30:13-37
+44            android:screenOrientation="landscape" />
+44-->E:\Computer_Science\AndroidStudioProjects\GameSuite\GameSuite\app\src\main\AndroidManifest.xml:31:13-50
 45        <activity
-45-->E:\Computer_Science\AndroidStudioProjects\GameSuite\app\src\main\AndroidManifest.xml:40:9-42:40
-46            android:name="com.example.gamesuite.ChimpGameEndPage"
-46-->E:\Computer_Science\AndroidStudioProjects\GameSuite\app\src\main\AndroidManifest.xml:41:13-45
-47            android:exported="false" />
-47-->E:\Computer_Science\AndroidStudioProjects\GameSuite\app\src\main\AndroidManifest.xml:42:13-37
-48        <activity
-48-->E:\Computer_Science\AndroidStudioProjects\GameSuite\app\src\main\AndroidManifest.xml:43:9-51:20
-49            android:name="com.example.gamesuite.LogInControl"
-49-->E:\Computer_Science\AndroidStudioProjects\GameSuite\app\src\main\AndroidManifest.xml:44:13-41
-50            android:exported="true" >
-50-->E:\Computer_Science\AndroidStudioProjects\GameSuite\app\src\main\AndroidManifest.xml:45:13-36
-51            <intent-filter>
-51-->E:\Computer_Science\AndroidStudioProjects\GameSuite\app\src\main\AndroidManifest.xml:46:13-50:29
-52                <action android:name="android.intent.action.MAIN" />
-52-->E:\Computer_Science\AndroidStudioProjects\GameSuite\app\src\main\AndroidManifest.xml:47:17-69
-52-->E:\Computer_Science\AndroidStudioProjects\GameSuite\app\src\main\AndroidManifest.xml:47:25-66
-53
-54                <category android:name="android.intent.category.LAUNCHER" />
-54-->E:\Computer_Science\AndroidStudioProjects\GameSuite\app\src\main\AndroidManifest.xml:49:17-77
-54-->E:\Computer_Science\AndroidStudioProjects\GameSuite\app\src\main\AndroidManifest.xml:49:27-74
-55            </intent-filter>
-56        </activity>
-57        <activity android:name="com.example.gamesuite.SignUpControl" />
-57-->E:\Computer_Science\AndroidStudioProjects\GameSuite\app\src\main\AndroidManifest.xml:52:9-51
-57-->E:\Computer_Science\AndroidStudioProjects\GameSuite\app\src\main\AndroidManifest.xml:52:19-48
-58        <activity android:name="com.example.gamesuite.MainScreenGUI" />
-58-->E:\Computer_Science\AndroidStudioProjects\GameSuite\app\src\main\AndroidManifest.xml:53:9-51
-58-->E:\Computer_Science\AndroidStudioProjects\GameSuite\app\src\main\AndroidManifest.xml:53:19-48
-59        <activity android:name="com.example.gamesuite.TeamInfo" />
-59-->E:\Computer_Science\AndroidStudioProjects\GameSuite\app\src\main\AndroidManifest.xml:54:9-46
-59-->E:\Computer_Science\AndroidStudioProjects\GameSuite\app\src\main\AndroidManifest.xml:54:19-43
-60        <activity android:name="com.example.gamesuite.ChimpGameStartPage" />
-60-->E:\Computer_Science\AndroidStudioProjects\GameSuite\app\src\main\AndroidManifest.xml:55:9-56
-60-->E:\Computer_Science\AndroidStudioProjects\GameSuite\app\src\main\AndroidManifest.xml:55:19-53
-61        <activity android:name="com.example.gamesuite.ChimpGame" />
-61-->E:\Computer_Science\AndroidStudioProjects\GameSuite\app\src\main\AndroidManifest.xml:56:9-47
-61-->E:\Computer_Science\AndroidStudioProjects\GameSuite\app\src\main\AndroidManifest.xml:56:19-44
-62        <activity android:name="com.example.gamesuite.Game2048StartPage" />
-62-->E:\Computer_Science\AndroidStudioProjects\GameSuite\app\src\main\AndroidManifest.xml:57:9-55
-62-->E:\Computer_Science\AndroidStudioProjects\GameSuite\app\src\main\AndroidManifest.xml:57:19-52
-63        <activity android:name="com.example.gamesuite.Game2048" />
-63-->E:\Computer_Science\AndroidStudioProjects\GameSuite\app\src\main\AndroidManifest.xml:58:9-46
-63-->E:\Computer_Science\AndroidStudioProjects\GameSuite\app\src\main\AndroidManifest.xml:58:19-43
-64        <activity android:name="com.example.gamesuite.Game2048EndPage" />
-64-->E:\Computer_Science\AndroidStudioProjects\GameSuite\app\src\main\AndroidManifest.xml:59:9-53
-64-->E:\Computer_Science\AndroidStudioProjects\GameSuite\app\src\main\AndroidManifest.xml:59:19-50
-65
-66        <provider
-66-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Zixiang Xu\.gradle\caches\transforms-3\9cb5d0b2fd275b8005e0d8fda37c4df6\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
-67            android:name="androidx.startup.InitializationProvider"
-67-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Zixiang Xu\.gradle\caches\transforms-3\9cb5d0b2fd275b8005e0d8fda37c4df6\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
-68            android:authorities="com.example.gamesuite.androidx-startup"
-68-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Zixiang Xu\.gradle\caches\transforms-3\9cb5d0b2fd275b8005e0d8fda37c4df6\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
-69            android:exported="false" >
-69-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Zixiang Xu\.gradle\caches\transforms-3\9cb5d0b2fd275b8005e0d8fda37c4df6\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
-70            <meta-data
-70-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Zixiang Xu\.gradle\caches\transforms-3\9cb5d0b2fd275b8005e0d8fda37c4df6\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
-71                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-71-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Zixiang Xu\.gradle\caches\transforms-3\9cb5d0b2fd275b8005e0d8fda37c4df6\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
-72                android:value="androidx.startup" />
-72-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Zixiang Xu\.gradle\caches\transforms-3\9cb5d0b2fd275b8005e0d8fda37c4df6\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
-73            <meta-data
-73-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Zixiang Xu\.gradle\caches\transforms-3\8eef53d9995d138e5396bc0361630197\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
-74                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-74-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Zixiang Xu\.gradle\caches\transforms-3\8eef53d9995d138e5396bc0361630197\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
-75                android:value="androidx.startup" />
-75-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Zixiang Xu\.gradle\caches\transforms-3\8eef53d9995d138e5396bc0361630197\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
-76        </provider>
-77    </application>
-78
-79</manifest>
+45-->E:\Computer_Science\AndroidStudioProjects\GameSuite\GameSuite\app\src\main\AndroidManifest.xml:32:9-35:53
+46            android:name="com.example.gamesuite.Connect5StartPage"
+46-->E:\Computer_Science\AndroidStudioProjects\GameSuite\GameSuite\app\src\main\AndroidManifest.xml:33:13-46
+47            android:exported="false"
+47-->E:\Computer_Science\AndroidStudioProjects\GameSuite\GameSuite\app\src\main\AndroidManifest.xml:34:13-37
+48            android:screenOrientation="landscape" />
+48-->E:\Computer_Science\AndroidStudioProjects\GameSuite\GameSuite\app\src\main\AndroidManifest.xml:35:13-50
+49        <activity
+49-->E:\Computer_Science\AndroidStudioProjects\GameSuite\GameSuite\app\src\main\AndroidManifest.xml:36:9-38:40
+50            android:name="com.example.gamesuite.ChimpGameScorePage"
+50-->E:\Computer_Science\AndroidStudioProjects\GameSuite\GameSuite\app\src\main\AndroidManifest.xml:37:13-47
+51            android:exported="false" />
+51-->E:\Computer_Science\AndroidStudioProjects\GameSuite\GameSuite\app\src\main\AndroidManifest.xml:38:13-37
+52        <activity
+52-->E:\Computer_Science\AndroidStudioProjects\GameSuite\GameSuite\app\src\main\AndroidManifest.xml:39:9-41:40
+53            android:name="com.example.gamesuite.ChimpGameEndPage"
+53-->E:\Computer_Science\AndroidStudioProjects\GameSuite\GameSuite\app\src\main\AndroidManifest.xml:40:13-45
+54            android:exported="false" />
+54-->E:\Computer_Science\AndroidStudioProjects\GameSuite\GameSuite\app\src\main\AndroidManifest.xml:41:13-37
+55        <activity
+55-->E:\Computer_Science\AndroidStudioProjects\GameSuite\GameSuite\app\src\main\AndroidManifest.xml:42:9-50:20
+56            android:name="com.example.gamesuite.LogInControl"
+56-->E:\Computer_Science\AndroidStudioProjects\GameSuite\GameSuite\app\src\main\AndroidManifest.xml:43:13-41
+57            android:exported="true" >
+57-->E:\Computer_Science\AndroidStudioProjects\GameSuite\GameSuite\app\src\main\AndroidManifest.xml:44:13-36
+58            <intent-filter>
+58-->E:\Computer_Science\AndroidStudioProjects\GameSuite\GameSuite\app\src\main\AndroidManifest.xml:45:13-49:29
+59                <action android:name="android.intent.action.MAIN" />
+59-->E:\Computer_Science\AndroidStudioProjects\GameSuite\GameSuite\app\src\main\AndroidManifest.xml:46:17-69
+59-->E:\Computer_Science\AndroidStudioProjects\GameSuite\GameSuite\app\src\main\AndroidManifest.xml:46:25-66
+60
+61                <category android:name="android.intent.category.LAUNCHER" />
+61-->E:\Computer_Science\AndroidStudioProjects\GameSuite\GameSuite\app\src\main\AndroidManifest.xml:48:17-77
+61-->E:\Computer_Science\AndroidStudioProjects\GameSuite\GameSuite\app\src\main\AndroidManifest.xml:48:27-74
+62            </intent-filter>
+63        </activity>
+64        <activity android:name="com.example.gamesuite.SignUpControl" />
+64-->E:\Computer_Science\AndroidStudioProjects\GameSuite\GameSuite\app\src\main\AndroidManifest.xml:51:9-51
+64-->E:\Computer_Science\AndroidStudioProjects\GameSuite\GameSuite\app\src\main\AndroidManifest.xml:51:19-48
+65        <activity android:name="com.example.gamesuite.MainScreenGUI" />
+65-->E:\Computer_Science\AndroidStudioProjects\GameSuite\GameSuite\app\src\main\AndroidManifest.xml:52:9-51
+65-->E:\Computer_Science\AndroidStudioProjects\GameSuite\GameSuite\app\src\main\AndroidManifest.xml:52:19-48
+66        <activity android:name="com.example.gamesuite.TeamInfo" />
+66-->E:\Computer_Science\AndroidStudioProjects\GameSuite\GameSuite\app\src\main\AndroidManifest.xml:53:9-46
+66-->E:\Computer_Science\AndroidStudioProjects\GameSuite\GameSuite\app\src\main\AndroidManifest.xml:53:19-43
+67        <activity android:name="com.example.gamesuite.ChimpGameStartPage" />
+67-->E:\Computer_Science\AndroidStudioProjects\GameSuite\GameSuite\app\src\main\AndroidManifest.xml:54:9-56
+67-->E:\Computer_Science\AndroidStudioProjects\GameSuite\GameSuite\app\src\main\AndroidManifest.xml:54:19-53
+68        <activity android:name="com.example.gamesuite.ChimpGame" />
+68-->E:\Computer_Science\AndroidStudioProjects\GameSuite\GameSuite\app\src\main\AndroidManifest.xml:55:9-47
+68-->E:\Computer_Science\AndroidStudioProjects\GameSuite\GameSuite\app\src\main\AndroidManifest.xml:55:19-44
+69        <activity android:name="com.example.gamesuite.Game2048StartPage" />
+69-->E:\Computer_Science\AndroidStudioProjects\GameSuite\GameSuite\app\src\main\AndroidManifest.xml:56:9-55
+69-->E:\Computer_Science\AndroidStudioProjects\GameSuite\GameSuite\app\src\main\AndroidManifest.xml:56:19-52
+70        <activity android:name="com.example.gamesuite.Game2048" />
+70-->E:\Computer_Science\AndroidStudioProjects\GameSuite\GameSuite\app\src\main\AndroidManifest.xml:57:9-46
+70-->E:\Computer_Science\AndroidStudioProjects\GameSuite\GameSuite\app\src\main\AndroidManifest.xml:57:19-43
+71        <activity android:name="com.example.gamesuite.Game2048EndPage" />
+71-->E:\Computer_Science\AndroidStudioProjects\GameSuite\GameSuite\app\src\main\AndroidManifest.xml:58:9-53
+71-->E:\Computer_Science\AndroidStudioProjects\GameSuite\GameSuite\app\src\main\AndroidManifest.xml:58:19-50
+72
+73        <provider
+73-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Zixiang Xu\.gradle\caches\transforms-3\a48da9222a27d7011d8d6f5dcd406f94\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+74            android:name="androidx.startup.InitializationProvider"
+74-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Zixiang Xu\.gradle\caches\transforms-3\a48da9222a27d7011d8d6f5dcd406f94\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+75            android:authorities="com.example.gamesuite.androidx-startup"
+75-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Zixiang Xu\.gradle\caches\transforms-3\a48da9222a27d7011d8d6f5dcd406f94\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+76            android:exported="false" >
+76-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Zixiang Xu\.gradle\caches\transforms-3\a48da9222a27d7011d8d6f5dcd406f94\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+77            <meta-data
+77-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Zixiang Xu\.gradle\caches\transforms-3\a48da9222a27d7011d8d6f5dcd406f94\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+78                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+78-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Zixiang Xu\.gradle\caches\transforms-3\a48da9222a27d7011d8d6f5dcd406f94\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+79                android:value="androidx.startup" />
+79-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Zixiang Xu\.gradle\caches\transforms-3\a48da9222a27d7011d8d6f5dcd406f94\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+80            <meta-data
+80-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Zixiang Xu\.gradle\caches\transforms-3\285697fa671a956cbf878061952c1ab5\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+81                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+81-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Zixiang Xu\.gradle\caches\transforms-3\285697fa671a956cbf878061952c1ab5\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+82                android:value="androidx.startup" />
+82-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Zixiang Xu\.gradle\caches\transforms-3\285697fa671a956cbf878061952c1ab5\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+83            <meta-data
+83-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zixiang Xu\.gradle\caches\transforms-3\86b9d2f5b191897aba6a40e243e0d8ad\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+84                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+84-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zixiang Xu\.gradle\caches\transforms-3\86b9d2f5b191897aba6a40e243e0d8ad\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+85                android:value="androidx.startup" />
+85-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zixiang Xu\.gradle\caches\transforms-3\86b9d2f5b191897aba6a40e243e0d8ad\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+86        </provider>
+87
+88        <receiver
+88-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zixiang Xu\.gradle\caches\transforms-3\86b9d2f5b191897aba6a40e243e0d8ad\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+89            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+89-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zixiang Xu\.gradle\caches\transforms-3\86b9d2f5b191897aba6a40e243e0d8ad\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+90            android:directBootAware="false"
+90-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zixiang Xu\.gradle\caches\transforms-3\86b9d2f5b191897aba6a40e243e0d8ad\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+91            android:enabled="true"
+91-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zixiang Xu\.gradle\caches\transforms-3\86b9d2f5b191897aba6a40e243e0d8ad\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+92            android:exported="true"
+92-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zixiang Xu\.gradle\caches\transforms-3\86b9d2f5b191897aba6a40e243e0d8ad\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+93            android:permission="android.permission.DUMP" >
+93-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zixiang Xu\.gradle\caches\transforms-3\86b9d2f5b191897aba6a40e243e0d8ad\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+94            <intent-filter>
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zixiang Xu\.gradle\caches\transforms-3\86b9d2f5b191897aba6a40e243e0d8ad\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+95                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+95-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zixiang Xu\.gradle\caches\transforms-3\86b9d2f5b191897aba6a40e243e0d8ad\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+95-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zixiang Xu\.gradle\caches\transforms-3\86b9d2f5b191897aba6a40e243e0d8ad\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+96            </intent-filter>
+97            <intent-filter>
+97-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zixiang Xu\.gradle\caches\transforms-3\86b9d2f5b191897aba6a40e243e0d8ad\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+98                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+98-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zixiang Xu\.gradle\caches\transforms-3\86b9d2f5b191897aba6a40e243e0d8ad\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+98-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zixiang Xu\.gradle\caches\transforms-3\86b9d2f5b191897aba6a40e243e0d8ad\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+99            </intent-filter>
+100            <intent-filter>
+100-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zixiang Xu\.gradle\caches\transforms-3\86b9d2f5b191897aba6a40e243e0d8ad\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+101                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zixiang Xu\.gradle\caches\transforms-3\86b9d2f5b191897aba6a40e243e0d8ad\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zixiang Xu\.gradle\caches\transforms-3\86b9d2f5b191897aba6a40e243e0d8ad\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+102            </intent-filter>
+103            <intent-filter>
+103-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zixiang Xu\.gradle\caches\transforms-3\86b9d2f5b191897aba6a40e243e0d8ad\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+104                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zixiang Xu\.gradle\caches\transforms-3\86b9d2f5b191897aba6a40e243e0d8ad\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zixiang Xu\.gradle\caches\transforms-3\86b9d2f5b191897aba6a40e243e0d8ad\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+105            </intent-filter>
+106        </receiver>
+107    </application>
+108
+109</manifest>

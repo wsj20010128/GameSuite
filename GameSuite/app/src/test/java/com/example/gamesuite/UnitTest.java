@@ -1,7 +1,8 @@
 package com.example.gamesuite;
 
-import org.junit.Test;
-import org.junit.Before;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.BeforeEach;
+
 import static org.junit.Assert.*;
 import java.nio.charset.StandardCharsets;
 import java.util.Random;
@@ -23,7 +24,7 @@ public class UnitTest {
      * Initializer
      *     -- Initialize the instances required for the unit test
      */
-    @Before
+    @BeforeEach
     public void init() {
 
         // Initialize security

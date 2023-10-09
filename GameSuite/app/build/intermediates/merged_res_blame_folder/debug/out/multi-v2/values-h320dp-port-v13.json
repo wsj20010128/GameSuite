@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.gamesuite.app-mergeDebugResources-24:/values-h320dp-port-v13/values-h320dp-port-v13.xml",
+            "outputFile": "com.example.gamesuite.app-mergeDebugResources-2:/values-h320dp-port-v13/values-h320dp-port-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Zixiang Xu\\.gradle\\caches\\transforms-3\\bfec8dfcaf6c34e166a516bbd7a3f400\\transformed\\material-1.6.1\\res\\values-h320dp-port-v13\\values-h320dp-port-v13.xml",
+                    "source": "E:\\Computer_Science\\AndroidStudioProjects\\Project_01\\gradle\\caches\\transforms-3\\5f689ff856110018e16c1e6ba60b6230\\transformed\\material-1.10.0\\res\\values-h320dp-port-v13\\values-h320dp-port-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
